@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Terra | Aura</title>
+    <title>Terra | Aura Aegis</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -86,6 +86,12 @@
         }
         .app-screen::-webkit-scrollbar { display: none; }
         .app-screen.hidden { opacity: 0; pointer-events: none; }
+        #home-screen.locked {
+            position: fixed;
+            width: 100%;
+            max-width: 430px;
+            overflow: hidden;
+        }
 
         #onboarding-screen {
             z-index: 200;
@@ -114,7 +120,7 @@
             font-weight: 400;
             text-shadow: 0 2px 10px rgba(0,0,0,0.5);
             animation: pulse-fade 4s infinite ease-in-out;
-            cursor: pointer;
+            background-color: transparent;
         }
         @keyframes pulse-fade {
             0%, 100% { opacity: 0.6; transform: scale(1); }
@@ -124,30 +130,10 @@
         #home-screen .content-padding {
             padding: 60px 0 120px 0;
         }
-        .vista-header {
-            padding: 0 30px 30px 30px;
-        }
-        .vista-header p {
-            font-family: 'Inter', sans-serif;
-            font-size: 16px;
-            color: var(--lupine-purple);
-            opacity: 0.8;
-            margin-bottom: 4px;
-        }
-        .vista-header h1 {
-            font-size: 36px;
-            font-weight: 500;
-        }
-
-        .collection-title {
-            font-size: 24px;
-            padding: 0 30px;
-            margin-bottom: 20px;
-        }
-        
-        .park-card-container {
-            padding: 0 30px;
-        }
+        .vista-header { padding: 0 30px 30px 30px; }
+        .vista-header p { font-family: 'Inter', sans-serif; font-size: 16px; color: var(--lupine-purple); opacity: 0.8; margin-bottom: 4px; }
+        .vista-header h1 { font-size: 36px; font-weight: 500; }
+        .park-card-container { padding: 0 30px; }
         .park-card {
             margin-bottom: 40px;
             height: 450px;
@@ -158,48 +144,20 @@
             box-shadow: 0 4px 15px rgba(74, 78, 83, 0.08), 0 20px 40px rgba(180, 166, 194, 0.15);
             transition: transform 0.5s var(--ease-out-quint), box-shadow 0.5s var(--ease-out-quint);
         }
-        .park-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 8px 20px rgba(74, 78, 83, 0.12), 0 25px 50px rgba(180, 166, 194, 0.2);
-        }
-        .park-card img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            filter: saturate(0.9) contrast(0.95);
-            transition: transform 0.8s var(--ease-out-quint);
-        }
-        .park-card:hover img {
-            transform: scale(1.05);
-        }
-        .park-card-overlay {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 150px;
-            background: linear-gradient(to top, rgba(30,30,40,0.7) 0%, rgba(30,30,40,0.5) 50%, transparent 100%);
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-            padding: 24px;
-        }
+        .park-card:hover { transform: translateY(-10px); box-shadow: 0 8px 20px rgba(74, 78, 83, 0.12), 0 25px 50px rgba(180, 166, 194, 0.2); }
+        .park-card img { width: 100%; height: 100%; object-fit: cover; filter: saturate(0.9) contrast(0.95); transition: transform 0.8s var(--ease-out-quint); }
+        .park-card:hover img { transform: scale(1.05); }
+        .park-card-overlay { position: absolute; bottom: 0; left: 0; right: 0; height: 150px; background: linear-gradient(to top, rgba(30,30,40,0.7) 0%, rgba(30,30,40,0.5) 50%, transparent 100%); display: flex; flex-direction: column; justify-content: flex-end; padding: 24px; }
         .park-card-overlay h3 { color: white; font-size: 26px; font-weight: 500; }
         .park-card-overlay p { color: rgba(255,255,255,0.8); font-family: 'Inter', sans-serif; font-size: 15px; }
-        
-        .anim-hidden {
-            opacity: 0;
-            transform: translateY(30px);
-        }
-        .anim-visible {
-            opacity: 1;
-            transform: translateY(0);
-            transition: opacity 0.8s var(--ease-out-quint), transform 0.8s var(--ease-out-quint);
-        }
+        .anim-hidden { opacity: 0; transform: translateY(30px); }
+        .anim-visible { opacity: 1; transform: translateY(0); transition: opacity 0.8s var(--ease-out-quint), transform 0.8s var(--ease-out-quint); }
 
         #park-detail-screen {
             background-color: transparent;
             z-index: 100;
+            perspective: 1px;
+            transform-style: preserve-3d;
         }
         #park-detail-screen.hidden { pointer-events: none; }
 
@@ -230,6 +188,7 @@
             position: relative;
             overflow: hidden;
             background: #000;
+            transform-style: preserve-3d;
         }
         .park-hero img {
             width: 100%;
@@ -237,47 +196,20 @@
             object-fit: cover;
             filter: saturate(0.9) contrast(0.95);
             opacity: 0;
-            transform: scale(1.1);
-            transition: opacity 0.8s var(--ease-out-quint), transform 1.2s var(--ease-out-quint);
+            transform: translateZ(-1px) scale(2.1);
+            transition: opacity 0.8s var(--ease-out-quint);
         }
-        #park-detail-screen.visible .park-hero img { opacity: 1; transform: scale(1); }
+        #park-detail-screen.visible .park-hero img { opacity: 1; }
         
-        .golden-hour-glow {
-            position: absolute;
-            top: 0; left: 0; right: 0; bottom: 0;
-            background: radial-gradient(circle at 50% 100%, var(--dawn-sky-peach), transparent 70%);
-            opacity: 0;
-            transition: opacity 1.5s ease;
-            mix-blend-mode: screen;
-        }
+        .golden-hour-glow { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: radial-gradient(circle at 50% 100%, var(--dawn-sky-peach), transparent 70%); opacity: 0; transition: opacity 1.5s ease; mix-blend-mode: screen; }
         .golden-hour .golden-hour-glow { opacity: 0.3; }
-
-        .park-hero-title {
-            position: absolute;
-            bottom: 30px;
-            left: 30px;
-            color: white;
-            text-shadow: 0 2px 15px rgba(0,0,0,0.5);
-        }
+        .park-hero-title { position: absolute; bottom: 30px; left: 30px; color: white; text-shadow: 0 2px 15px rgba(0,0,0,0.5); }
         .park-hero-title h1 { font-size: 42px; font-weight: 500; color: white; }
         .park-hero-title p { font-family: 'Inter', sans-serif; font-size: 16px; color: rgba(255,255,255,0.9); }
-
-        .park-content {
-            padding: 30px 30px 100px 30px;
-            background-color: var(--misty-white);
-            transform: translateY(-24px);
-            border-top-left-radius: 24px;
-            border-top-right-radius: 24px;
-            position: relative;
-            min-height: 50vh;
-        }
+        .park-content { padding: 30px 30px 100px 30px; background-color: var(--misty-white); transform: translateY(-24px); border-top-left-radius: 24px; border-top-right-radius: 24px; position: relative; min-height: 50vh; }
         .park-section { margin-bottom: 40px; }
         .park-section h2 { font-size: 22px; margin-bottom: 16px; display: flex; align-items: center; }
-        .park-section h2 svg {
-            width: 22px; height: 22px; margin-right: 12px;
-            color: var(--lupine-purple);
-            stroke-width: 1.5;
-        }
+        .park-section h2 svg { width: 22px; height: 22px; margin-right: 12px; color: var(--lupine-purple); stroke-width: 1.5; }
 
     </style>
 </head>
@@ -289,7 +221,7 @@
             <video id="onboarding-video" autoplay muted loop playsinline>
                 <source src="https://assets.mixkit.co/videos/preview/mixkit-sun-dappled-forest-path-2173-large.mp4" type="video/mp4">
             </video>
-            <h1 class="welcome-text">Find your quiet place.</h1>
+            <button class="welcome-text">Find your quiet place.</button>
         </div>
 
         <main id="main-app" class="hidden">
@@ -299,18 +231,15 @@
                         <p>Terra</p>
                         <h1>Explore</h1>
                     </header>
-                    
                     <div class="park-card-container">
                         <div class="park-card anim-hidden" data-park-id="yosemite">
                             <img src="https://images.unsplash.com/photo-1531339191398-75c464b51820?auto=format&fit=crop&q=80&w=1587" alt="Yosemite Valley" loading="lazy">
                             <div class="park-card-overlay"><h3>Yosemite</h3><p>California</p></div>
                         </div>
-                    
                         <div class="park-card anim-hidden" data-park-id="zion">
                             <img src="https://images.unsplash.com/photo-1616616909479-0b54332f3f7e?auto=format&fit=crop&q=80&w=1587" alt="Zion National Park" loading="lazy">
                             <div class="park-card-overlay"><h3>Zion</h3><p>Utah</p></div>
                         </div>
-                        
                         <div class="park-card anim-hidden" data-park-id="glacier">
                             <img src="https://images.unsplash.com/photo-1589434032178-5095e13589b3?auto=format&fit=crop&q=80&w=1587" alt="Glacier National Park" loading="lazy">
                             <div class="park-card-overlay"><h3>Glacier</h3><p>Montana</p></div>
@@ -336,7 +265,6 @@
                 </div>
             </div>
         </main>
-        
     </div>
 
     <script>
@@ -349,7 +277,7 @@
             };
 
             const onboardingScreen = document.getElementById('onboarding-screen');
-            const welcomeText = document.querySelector('.welcome-text');
+            const welcomeButton = document.querySelector('.welcome-text');
             const mainApp = document.getElementById('main-app');
             const homeScreen = document.getElementById('home-screen');
             const parkCards = document.querySelectorAll('.park-card');
@@ -358,7 +286,9 @@
             const parkHeroImage = document.getElementById('park-hero-image');
             const heroParallaxContainer = document.querySelector('.park-hero');
 
-            welcomeText.addEventListener('click', () => {
+            let lastScrollPosition = 0;
+
+            welcomeButton.addEventListener('click', () => {
                 onboardingScreen.classList.add('hidden');
                 mainApp.classList.remove('hidden');
                 
@@ -384,12 +314,16 @@
                     const parkId = card.dataset.parkId;
                     renderParkDetail(parkId);
                     
+                    lastScrollPosition = homeScreen.scrollTop;
+                    homeScreen.classList.add('locked');
+                    homeScreen.style.top = `-${lastScrollPosition}px`;
+
                     parkDetailScreen.classList.remove('hidden');
                     setTimeout(() => {
                         parkDetailScreen.classList.add('visible');
+                        parkDetailCloseButton.focus();
+                        document.addEventListener('keydown', handleFocusTrap);
                     }, 50);
-
-                    document.body.style.overflow = 'hidden';
                 });
             });
 
@@ -397,10 +331,34 @@
 
             function closeParkDetail() {
                 parkDetailScreen.classList.remove('visible');
+                document.removeEventListener('keydown', handleFocusTrap);
+                
                 setTimeout(() => {
                     parkDetailScreen.classList.add('hidden');
-                    document.body.style.overflow = 'auto';
+                    homeScreen.classList.remove('locked');
+                    homeScreen.style.top = '';
+                    homeScreen.scrollTop = lastScrollPosition;
                 }, 500);
+            }
+
+            function handleFocusTrap(e) {
+                if (e.key !== 'Tab') return;
+
+                const focusableElements = parkDetailScreen.querySelectorAll('button');
+                const firstElement = focusableElements[0];
+                const lastElement = focusableElements[focusableElements.length - 1];
+
+                if (e.shiftKey) {
+                    if (document.activeElement === firstElement) {
+                        lastElement.focus();
+                        e.preventDefault();
+                    }
+                } else {
+                    if (document.activeElement === lastElement) {
+                        firstElement.focus();
+                        e.preventDefault();
+                    }
+                }
             }
 
             function renderParkDetail(parkId) {
@@ -411,11 +369,6 @@
                 document.getElementById('park-hero-name').textContent = data.name;
                 document.getElementById('park-hero-location').textContent = data.location;
                 document.getElementById('park-essence-text').textContent = data.essence;
-
-                parkDetailScreen.onscroll = () => {
-                    let scrollTop = parkDetailScreen.scrollTop;
-                    parkHeroImage.style.transform = `scale(1.1) translateY(${scrollTop * 0.4}px)`;
-                };
 
                 const currentHour = new Date().getHours();
                 if (currentHour >= 19 && currentHour <= 20) {
