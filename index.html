@@ -342,10 +342,12 @@
             let lastScrollPosition = 0;
 
             const cursor = document.getElementById('cursor');
-            document.addEventListener('mousemove', e => {
-                cursor.style.left = e.clientX + 'px';
-                cursor.style.top = e.clientY + 'px';
-            });
+document.addEventListener('mousemove', e => {
+    window.requestAnimationFrame(() => {
+        cursor.style.left = e.clientX + 'px';
+        cursor.style.top = e.clientY + 'px';
+    });
+});
 
             particlesJS('particles-js', {
                 particles: {
