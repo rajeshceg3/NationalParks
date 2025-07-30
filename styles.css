@@ -122,6 +122,17 @@ button { background: none; border: none; font: inherit; color: inherit; cursor: 
 .vista-header { padding: 0 30px 30px 30px; }
 .vista-header p { font-family: 'Roboto', sans-serif; font-size: 16px; color: var(--sage-green); opacity: 0.8; margin-bottom: 4px; }
 .vista-header h1 { font-size: 36px; font-weight: 500; }
+.search-container {
+    padding: 20px 30px;
+}
+#search-bar {
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid var(--sage-green);
+    font-size: 16px;
+    font-family: 'Lora', serif;
+}
 .park-card-container { padding: 0 30px; }
 .park-card {
     margin-bottom: 40px;

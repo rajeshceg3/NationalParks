@@ -1,71 +1,70 @@
 (() => {
     document.addEventListener('DOMContentLoaded', () => {
-        const parksData = {
-            yosemite: {
-                name: 'Yosemite',
-                location: 'California',
-                heroImage: 'https://images.unsplash.com/photo-1531339191398-75c464b51820?auto=format&fit=crop&q=80&w=1587',
-                essence: 'Experience the awe-inspiring grandeur of Yosemite, a sanctuary of towering granite cliffs, ancient sequoia groves, and breathtaking waterfalls. From the iconic Half Dome to the serene Tuolumne Meadows, Yosemite is a testament to nature\'s artistry and power.',
-                gallery: [
-                    'https://images.unsplash.com/photo-1542332213-31f9734d206c?auto=format&fit=crop&q=80&w=1587',
-                    'https://images.unsplash.com/photo-1519424187790-91631ea9d597?auto=format&fit=crop&q=80&w=1587',
-                    'https://images.unsplash.com/photo-1508615039623-a25605d2b022?auto=format&fit=crop&q=80&w=1587'
-                ]
-            },
-            zion: {
-                name: 'Zion',
-                location: 'Utah',
-                heroImage: 'https://images.unsplash.com/photo-1616616909479-0b54332f3f7e?auto=format&fit=crop&q=80&w=1587',
-                essence: 'Explore the dramatic landscapes of Zion, where majestic sandstone cliffs, painted in hues of cream, pink, and red, rise against a brilliant blue sky. Carved by the Virgin River, Zion\'s narrow canyons and stunning vistas offer unforgettable adventures.',
-                gallery: [
-                    'https://images.unsplash.com/photo-1587280501635-3a09383d466c?auto=format&fit=crop&q=80&w=1587',
-                    'https://images.unsplash.com/photo-1597039615453-41031b2a9a4c?auto=format&fit=crop&q=80&w=1587',
-                    'https://images.unsplash.com/photo-1606231262943-2a34cf87265f?auto=format&fit=crop&q=80&w=1587'
-                ]
-            },
-            glacier: {
-                name: 'Glacier',
-                location: 'Montana',
-                heroImage: 'https://images.unsplash.com/photo-1589434032178-5095e13589b3?auto=format&fit=crop&q=80&w=1587',
-                essence: 'Discover the pristine wilderness of Glacier National Park, a land of rugged mountains, sparkling lakes, and sprawling forests. Home to grizzly bears, mountain goats, and bighorn sheep, Glacier is a paradise for hikers and nature lovers.',
-                gallery: [
-                    'https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&q=80&w=1587',
-                    'https://images.unsplash.com/photo-1579482852443-de7a7a6a4913?auto=format&fit=crop&q=80&w=1587',
-                    'https://images.unsplash.com/photo-1548495033-812e4f723326?auto=format&fit=crop&q=80&w=1587'
-                ]
-            }
-        };
-
+        let parksData = {};
         const onboardingScreen = document.getElementById('onboarding-screen');
         const welcomeButton = document.querySelector('.welcome-text');
         const mainApp = document.getElementById('main-app');
         const homeScreen = document.getElementById('home-screen');
-        const parkCards = document.querySelectorAll('.park-card');
         const parkDetailScreen = document.getElementById('park-detail-screen');
         const parkDetailCloseButton = parkDetailScreen.querySelector('.close-button');
         const parkHeroImage = document.getElementById('park-hero-image');
         const heroParallaxContainer = document.querySelector('.park-hero');
 
         let lastScrollPosition = 0;
+        let allParks = [];
 
-        const cursor = document.getElementById('cursor');
-        document.addEventListener('mousemove', e => {
-            window.requestAnimationFrame(() => {
-                cursor.style.left = e.clientX + 'px';
-                cursor.style.top = e.clientY + 'px';
+        fetch('parks.json')
+            .then(response => response.json())
+            .then(data => {
+                allParks = data;
+                parksData = data.reduce((acc, park) => {
+                    acc[park.name.toLowerCase().replace(/ /g, '')] = park;
+                    return acc;
+                }, {});
+                renderParkCards(allParks);
             });
+
+        const searchBar = document.getElementById('search-bar');
+        searchBar.addEventListener('keyup', (e) => {
+            const searchString = e.target.value.toLowerCase();
+            const filteredParks = allParks.filter(park => {
+                return park.name.toLowerCase().includes(searchString) || park.location.toLowerCase().includes(searchString);
+            });
+            renderParkCards(filteredParks);
         });
 
-        const interactiveElements = document.querySelectorAll('button, a, .park-card');
-        interactiveElements.forEach(el => {
-            el.addEventListener('mouseenter', () => cursor.classList.add('hover'));
-            el.addEventListener('mouseleave', () => cursor.classList.remove('hover'));
-        });
+        function renderParkCards(parks) {
+            const parkCardContainer = document.querySelector('.park-card-container');
+            parkCardContainer.innerHTML = '';
+            parks.forEach(park => {
+                const parkCard = document.createElement('div');
+                parkCard.className = 'park-card anim-hidden';
+                parkCard.dataset.parkId = park.name.toLowerCase().replace(/ /g, '');
+                parkCard.innerHTML = `
+                    <img src="${park.heroImage}" alt="${park.name}" loading="lazy">
+                    <div class="park-card-overlay"><h3>${park.name}</h3><p>${park.location}</p></div>
+                `;
+                parkCardContainer.appendChild(parkCard);
+            });
 
+            const parkCards = document.querySelectorAll('.park-card');
+            parkCards.forEach(card => {
+                card.addEventListener('click', () => {
+                    const parkId = card.dataset.parkId;
+                    renderParkDetail(parkId);
 
-        welcomeButton.addEventListener('click', () => {
-            onboardingScreen.classList.add('hidden');
-            mainApp.classList.remove('hidden');
+                    lastScrollPosition = homeScreen.scrollTop;
+                    homeScreen.classList.add('locked');
+                    homeScreen.style.top = `-${lastScrollPosition}px`;
+
+                    parkDetailScreen.classList.remove('hidden');
+                    setTimeout(() => {
+                        parkDetailScreen.classList.add('visible');
+                        parkDetailCloseButton.focus();
+                        document.addEventListener('keydown', handleFocusTrap);
+                    }, 50);
+                });
+            });
 
             const animatedElements = document.querySelectorAll('.anim-hidden');
             animatedElements.forEach((el, index) => {
@@ -82,24 +81,20 @@
             }, { threshold: 0.1 });
 
             animatedElements.forEach(el => observer.observe(el));
+        }
+
+        const cursor = document.getElementById('cursor');
+        document.addEventListener('mousemove', e => {
+            window.requestAnimationFrame(() => {
+                cursor.style.left = e.clientX + 'px';
+                cursor.style.top = e.clientY + 'px';
+            });
         });
 
-        parkCards.forEach(card => {
-            card.addEventListener('click', () => {
-                const parkId = card.dataset.parkId;
-                renderParkDetail(parkId);
 
-                lastScrollPosition = homeScreen.scrollTop;
-                homeScreen.classList.add('locked');
-                homeScreen.style.top = `-${lastScrollPosition}px`;
-
-                parkDetailScreen.classList.remove('hidden');
-                setTimeout(() => {
-                    parkDetailScreen.classList.add('visible');
-                    parkDetailCloseButton.focus();
-                    document.addEventListener('keydown', handleFocusTrap);
-                }, 50);
-            });
+        welcomeButton.addEventListener('click', () => {
+            onboardingScreen.classList.add('hidden');
+            mainApp.classList.remove('hidden');
         });
 
         parkDetailCloseButton.addEventListener('click', closeParkDetail);
