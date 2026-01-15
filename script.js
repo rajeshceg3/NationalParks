@@ -10,6 +10,9 @@
         const parkHeroImage = document.getElementById('park-hero-image');
         const heroParallaxContainer = document.querySelector('.park-hero');
 
+        const PLACEHOLDER_IMG = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxIDEiPjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiMzMzMiLz48L3N2Zz4=";
+        parkHeroImage.onerror = () => { parkHeroImage.src = PLACEHOLDER_IMG; };
+
         let lastScrollPosition = 0;
         let allParks = [];
 
@@ -41,7 +44,7 @@
                 parkCard.className = 'park-card anim-hidden';
                 parkCard.dataset.parkId = park.name.toLowerCase().replace(/ /g, '');
                 parkCard.innerHTML = `
-                    <img src="${park.heroImage}" alt="${park.name}" loading="lazy">
+                    <img src="${park.heroImage}" alt="${park.name}" loading="lazy" onerror="this.src='${PLACEHOLDER_IMG}'">
                     <div class="park-card-overlay"><h3>${park.name}</h3><p>${park.location}</p></div>
                 `;
                 parkCardContainer.appendChild(parkCard);
@@ -146,6 +149,7 @@
                 const img = document.createElement('img');
                 img.src = imageUrl;
                 img.alt = `${data.name} gallery image`;
+                img.onerror = () => { img.style.display = 'none'; };
                 galleryContainer.appendChild(img);
             });
 
