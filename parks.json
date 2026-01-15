@@ -2,694 +2,694 @@
     {
         "name": "Acadia",
         "location": "Maine",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7B45AE-1DD8-B71B-0B767461401321A4.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Bass_Harbor_Lighthouse_b.jpg/1280px-Bass_Harbor_Lighthouse_b.jpg",
         "essence": "Covering most of Mount Desert Island and other coastal islands, Acadia features the tallest mountain on the Atlantic coast of the United States, granite peaks, ocean shoreline, woodlands, and lakes. There are freshwater, estuary, forest, and intertidal habitats.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7B49F5-1DD8-B71B-0B1731346257631A.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7B4B58-1DD8-B71B-0B2021E435E99B24.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7B4CC4-1DD8-B71B-0B83594895C9533B.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/A080%2C_Acadia_National_Park%2C_Maine%2C_USA%2C_Otter_Cove%2C_2002.jpg/960px-A080%2C_Acadia_National_Park%2C_Maine%2C_USA%2C_Otter_Cove%2C_2002.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Acadia_National_Park%2C_George_B_Dorr_and_Charles_W_Eliot_on_the_shore_of_Jordan_Pond.jpg/960px-Acadia_National_Park%2C_George_B_Dorr_and_Charles_W_Eliot_on_the_shore_of_Jordan_Pond.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Acadia_National_Park%2C_Jonah_crab.jpg/960px-Acadia_National_Park%2C_Jonah_crab.jpg"
         ]
     },
     {
         "name": "American Samoa",
         "location": "American Samoa",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7E526D-1DD8-B71B-0B70014244B0D0B2.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Pola_Islands_Tutuila_NPS.jpg/1280px-Pola_Islands_Tutuila_NPS.jpg",
         "essence": "The southernmost national park is on three Samoan islands in the South Pacific. It protects coral reefs, rainforests, volcanic mountains, and white beaches. The area is also home to flying foxes, brown boobies, sea turtles, and 900 species of fish.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7E55A6-1DD8-B71B-0B5A33A82441A978.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7E57F8-1DD8-B71B-0B92B2F4C87413D3.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7E594A-1DD8-B71B-0B36089F48464619.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Pola_Islands_Tutuila_NPS.jpg/960px-Pola_Islands_Tutuila_NPS.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/World_War_II_encampments_on_American_Samoa.jpg/960px-World_War_II_encampments_on_American_Samoa.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/American_Samoa_tramway_remains.jpg/960px-American_Samoa_tramway_remains.jpg"
         ]
     },
     {
         "name": "Arches",
         "location": "Utah",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Delicate_arch_sunset.jpg/1280px-Delicate_arch_sunset.jpg",
         "essence": "This site features more than 2,000 natural sandstone arches, with some of the most popular arches in the park being Delicate Arch, Landscape Arch and Double Arch. Millions of years of erosion have created these structures in a desert climate where the arid ground has life-sustaining biological soil crusts and potholes that serve as natural water-collecting basins. Other geologic formations include stone pinnacles, fins, and balancing rocks.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Arches_Nationalpark_Broken_Arch_P4180541.jpg/960px-Arches_Nationalpark_Broken_Arch_P4180541.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Skyline_Arch_at_Arches_National_Park-Unburnsky.jpg/960px-Skyline_Arch_at_Arches_National_Park-Unburnsky.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Colorado_River05.jpg/960px-Colorado_River05.jpg"
         ]
     },
     {
         "name": "Badlands",
         "location": "South Dakota",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/MK00609_Badlands.jpg/1280px-MK00609_Badlands.jpg",
         "essence": "The Badlands are a collection of buttes, pinnacles, spires, and mixed-grass prairies within the drainage basin of the White River, in southwestern South Dakota. They contain the largest known assemblage of late Eocene and Oligocene mammal fossils. Wildlife includes bison, bighorn sheep, black-footed ferrets, and prairie dogs.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/MK00609_Badlands.jpg/960px-MK00609_Badlands.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Window_Trail_PA090087.JPG/960px-Window_Trail_PA090087.JPG",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/White_River_Badlands_of_South_Dakota_panorama.jpg/960px-White_River_Badlands_of_South_Dakota_panorama.jpg"
         ]
     },
     {
         "name": "Big Bend",
         "location": "Texas",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
-        "essence": "Named for the prominent bend in the Rio Grande along the U.S.–Mexico border, this park encompasses a large and remote part of the Chihuahuan Desert. Its main attraction is backcountry recreation in the arid Chisos Mountains and in canyons along the river. A wide variety of Cretaceous and Tertiary fossils as well as cultural artifacts of Native Americans also exist within its borders.",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Canyon%2C_Rio_Grande%2C_Texas.jpeg/1280px-Canyon%2C_Rio_Grande%2C_Texas.jpeg",
+        "essence": "Named for the prominent bend in the Rio Grande along the U.S.\u2013Mexico border, this park encompasses a large and remote part of the Chihuahuan Desert. Its main attraction is backcountry recreation in the arid Chisos Mountains and in canyons along the river. A wide variety of Cretaceous and Tertiary fossils as well as cultural artifacts of Native Americans also exist within its borders.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/HFCA_1607_Special_Events_And_VIPS_Volume_2_311.jpg_%28ec7fb6ffa7cc4e6e9c898b3caad305a6%29.jpg/960px-HFCA_1607_Special_Events_And_VIPS_Volume_2_311.jpg_%28ec7fb6ffa7cc4e6e9c898b3caad305a6%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Big-Bend-NP.jpg/960px-Big-Bend-NP.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Balanced_Rock_in_Big_bend.jpg/960px-Balanced_Rock_in_Big_bend.jpg"
         ]
     },
     {
         "name": "Biscayne",
         "location": "Florida",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Biscayne.JPG/1280px-Biscayne.JPG",
         "essence": "The central part of Biscayne Bay, this mostly underwater park at the north end of the Florida Keys has four interrelated marine ecosystems: mangrove forest, the Bay, the Keys, and coral reefs. Threatened animals include the West Indian manatee, American crocodile, various sea turtles, and the peregrine falcon.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/e/e7/Biscayne_NM_proposal_NPS1.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Green_Sea_Turtle_Biscayne.jpg/960px-Green_Sea_Turtle_Biscayne.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Biscayne_American_Crocodile_NPS1.jpg/960px-Biscayne_American_Crocodile_NPS1.jpg"
         ]
     },
     {
         "name": "Black Canyon of the Gunnison",
         "location": "Colorado",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Black_Canyon_and_Gunnison_River_2008.jpg/1280px-Black_Canyon_and_Gunnison_River_2008.jpg",
         "essence": "The park protects a quarter of the Gunnison River, which slices sheer canyon walls from dark Precambrian-era rock. The canyon features some of the steepest cliffs and oldest rock in North America, and is a popular site for river rafting and rock climbing. The deep, narrow canyon is composed of gneiss and schist, which appears black when in shadow.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/GunnisonRvr.JPG/960px-GunnisonRvr.JPG",
+            "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Cimarron_Rail_-_theperfectstorm.jpg/960px-Cimarron_Rail_-_theperfectstorm.jpg",
+            "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Tps_-_Gunnison_Point.jpg/960px-Tps_-_Gunnison_Point.jpg"
         ]
     },
     {
         "name": "Bryce Canyon",
         "location": "Utah",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Inspiration_Point_Bryce_Canyon_November_2018_panorama.jpg/1280px-Inspiration_Point_Bryce_Canyon_November_2018_panorama.jpg",
         "essence": "Bryce Canyon is a geological amphitheater on southern Utah's Paunsaugunt Plateau with hundreds of tall, multicolored sandstone hoodoos formed by erosion. The region was originally settled by Native Americans and later by Mormon pioneers.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Thor%27s_Hammer_-_Bryce_Canyon.jpg/960px-Thor%27s_Hammer_-_Bryce_Canyon.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Bryce_Canyon_visitors_center.jpg/960px-Bryce_Canyon_visitors_center.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Winter_storm_at_Bryce_Canyon.jpg/960px-Winter_storm_at_Bryce_Canyon.jpg"
         ]
     },
     {
         "name": "Canyonlands",
         "location": "Utah",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Green_River_Overlook_Ekker_Butte.jpg/1280px-Green_River_Overlook_Ekker_Butte.jpg",
         "essence": "This landscape was eroded into a maze of canyons, buttes, and mesas by the combined efforts of the Colorado River, Green River, and their tributaries, which divide the park into three districts. The park contains thousands of rock pinnacles and arches, as well as artifacts from Ancient Pueblo peoples.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/WhiteRimRoad.jpg/960px-WhiteRimRoad.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Green_River_Overlook_Ekker_Butte.jpg/960px-Green_River_Overlook_Ekker_Butte.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Canyonlands_The_Maze_Aerial.jpg/819px-Canyonlands_The_Maze_Aerial.jpg"
         ]
     },
     {
         "name": "Capitol Reef",
         "location": "Utah",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Capitol_Reef_National_Park.jpg/1280px-Capitol_Reef_National_Park.jpg",
         "essence": "The park's Waterpocket Fold is a 100-mile (160 km) monocline that exhibits the earth's diverse geologic layers. Other natural features include monoliths, eroded buttes, and sandstone domes, including one shaped like the United States Capitol.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hickman_Bridge_Capitol_Reef_National_Park_USA.jpg/960px-Hickman_Bridge_Capitol_Reef_National_Park_USA.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Capitol_Gorge_-_2016-07-01.jpg/960px-Capitol_Gorge_-_2016-07-01.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/GoldenThrone.JPG/960px-GoldenThrone.JPG"
         ]
     },
     {
         "name": "Carlsbad Caverns",
         "location": "New Mexico",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Carlsbad_Interior_Formations.jpg",
         "essence": "Carlsbad Caverns has 117 caves, the longest of which is over 120 miles (190 km) long. The Big Room is almost 4,000 feet (1,200 m) long, and the caves are home to over 400,000 Mexican free-tailed bats and sixteen other species. Above ground are the Chihuahuan Desert and Rattlesnake Springs.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Carlsbad_Caverns_rail_pic.JPG/960px-Carlsbad_Caverns_rail_pic.JPG",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Carlsbad-_Rock_of_Ages_in_the_Big_Room_Aaw27.jpg/960px-Carlsbad-_Rock_of_Ages_in_the_Big_Room_Aaw27.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Diorama_at_the_Carlsbad_Cavern_Visitor%27s_Center.jpg/960px-Diorama_at_the_Carlsbad_Cavern_Visitor%27s_Center.jpg"
         ]
     },
     {
         "name": "Channel Islands",
         "location": "California",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Channel_Islands_National_Park_by_Sentinel-2.jpg/1280px-Channel_Islands_National_Park_by_Sentinel-2.jpg",
         "essence": "Five of the eight Channel Islands are protected, with half of the park's area underwater. The islands have a unique Mediterranean ecosystem originally settled by the Chumash people. They are home to over 2,000 species of land plants and animals, 145 endemic to them, including the island fox. Ferry services offer transportation to the islands from the mainland.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/b/bf/Sea_Fan.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ferry_docked_at_Santa_Cruz_Island.jpg/960px-Ferry_docked_at_Santa_Cruz_Island.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/8/84/San-miguel-cuyler-hike.jpg"
         ]
     },
     {
         "name": "Congaree",
         "location": "South Carolina",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/4/4f/A548%2C_Congaree_National_Park%2C_South_Carolina%2C_USA%2C_2012.jpg",
         "essence": "On the Congaree River, this park is the largest portion of old-growth floodplain forest left in North America. Some of the trees are the tallest in the eastern United States. An elevated walkway called the Boardwalk Loop guides visitors through the swamp.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Congaree_National_Park_geologic_cross_section.png/960px-Congaree_National_Park_geologic_cross_section.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Kayakers_on_Cedar_Creek.jpg/960px-Kayakers_on_Cedar_Creek.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/4/4f/A548%2C_Congaree_National_Park%2C_South_Carolina%2C_USA%2C_2012.jpg"
         ]
     },
     {
         "name": "Crater Lake",
         "location": "Oregon",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Above_Crater_Lake_%28cropped%29.jpg/1280px-Above_Crater_Lake_%28cropped%29.jpg",
         "essence": "Crater Lake lies in the caldera of an ancient volcano called Mount Mazama that collapsed 7,700 years ago. The lake is the deepest in the United States and is noted for its vivid blue color and water clarity. Wizard Island and the Phantom Ship are more recent volcanic formations within the caldera. As the lake has no inlets or outlets, it is replenished only by precipitation.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Pinnacles1.jpg/960px-Pinnacles1.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Aerial_Crater_Lake_%28cropped%29.jpg/960px-Aerial_Crater_Lake_%28cropped%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Crater_Lake_Garfield_Peak_Trail_View_East.jpg/960px-Crater_Lake_Garfield_Peak_Trail_View_East.jpg"
         ]
     },
     {
         "name": "Cuyahoga Valley",
         "location": "Ohio",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Cuyahoga_Valley_National_Park_20.jpg/1280px-Cuyahoga_Valley_National_Park_20.jpg",
         "essence": "This park along the Cuyahoga River has waterfalls, hills, trails, and exhibits on early rural living. The Ohio and Erie Canal Towpath Trail follows the Ohio and Erie Canal, where mules towed canal boats. The park has numerous historic homes, bridges, and structures, and also offers a scenic train ride.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Evrod.jpeg/960px-Evrod.jpeg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Cuyahoga_Valley_National_Park_geologic_cross_section.png/949px-Cuyahoga_Valley_National_Park_geologic_cross_section.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Peninsula_Depot.jpg/960px-Peninsula_Depot.jpg"
         ]
     },
     {
         "name": "Death Valley",
         "location": "California, Nevada",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
-        "essence": "Death Valley is the hottest, lowest, and driest place in the United States, with daytime temperatures that have exceeded 130 °F (54 °C). The park protects Badwater Basin and its vast salt flats at the lowest elevation in North America, −282 ft (−86 m), This geologic graben also protects numerous canyons, badlands, sand dunes, mountain ranges, historic mines, springs, and more than 1,000 species of plants that grow.",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Mesquite_Sand_Dunes_in_Death_Valley.jpg/1280px-Mesquite_Sand_Dunes_in_Death_Valley.jpg",
+        "essence": "Death Valley is the hottest, lowest, and driest place in the United States, with daytime temperatures that have exceeded 130 \u00b0F (54 \u00b0C). The park protects Badwater Basin and its vast salt flats at the lowest elevation in North America, \u2212282 ft (\u221286 m), This geologic graben also protects numerous canyons, badlands, sand dunes, mountain ranges, historic mines, springs, and more than 1,000 species of plants that grow.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/b/ba/Death_Valley_Pupfish_spawning_in_Salt_Creek.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Death_Valley_Railroad_No_2-a.jpg/960px-Death_Valley_Railroad_No_2-a.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/b/b5/CCC_boys_in_Death_Valley.jpg"
         ]
     },
     {
         "name": "Denali",
         "location": "Alaska",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Every_Road-_Denali_%287945497984%29.jpg/1280px-Every_Road-_Denali_%287945497984%29.jpg",
         "essence": "Centered on Denali, the tallest and most prominent mountain in North America, the park is serviced by a single road leading to Wonder Lake, most of which can only be accessed via scheduled tour buses. Denali and other peaks of the Alaska Range are covered with long glaciers and boreal forest. Wildlife includes grizzly bears, Dall sheep, moose, caribou, and wolves.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Alaska_2007_08_05_0111.jpg/960px-Alaska_2007_08_05_0111.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Traffic_Jam_in_Denali.jpg/960px-Traffic_Jam_in_Denali.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Kichatna_Peaks.jpg/960px-Kichatna_Peaks.jpg"
         ]
     },
     {
         "name": "Dry Tortugas",
         "location": "Florida",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Fort-Jefferson_Dry-Tortugas.jpg",
         "essence": "The islands of the Dry Tortugas, at the westernmost end of the Florida Keys, are the site of Fort Jefferson, a Civil War-era fort that is the largest masonry structure in the Americas. The park is home to undisturbed coral reefs and shipwrecks, and is only accessible by plane or boat.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Dry_Tortugas_%283484242358%29.jpg/960px-Dry_Tortugas_%283484242358%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/A304%2C_Fort_Jefferson%2C_Dry_Tortugas_National_Park%2C_Florida%2C_USA%2C_2012.JPG/960px-A304%2C_Fort_Jefferson%2C_Dry_Tortugas_National_Park%2C_Florida%2C_USA%2C_2012.JPG",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Bush_Long_Key.jpg/960px-Bush_Long_Key.jpg"
         ]
     },
     {
         "name": "Everglades",
         "location": "Florida",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Sunset_over_the_River_of_Grass%2C_NPSphoto%2C_G.Gardner_%289255157507%29.jpg/1280px-Sunset_over_the_River_of_Grass%2C_NPSphoto%2C_G.Gardner_%289255157507%29.jpg",
         "essence": "The Everglades are the largest tropical wilderness in the United States. This mangrove and tropical rainforest ecosystem and marine estuary is home to 36 protected species, including the Florida panther, American crocodile, and West Indian manatee. Some areas have been drained and developed; restoration projects aim to restore the ecology.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Calusa_chickee_and_terrace.jpg/960px-Calusa_chickee_and_terrace.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Everglades_American_Crocodile.jpg/900px-Everglades_American_Crocodile.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Florida_Panther_%281%29%2C_NPSPhoto%2C_Rodney_Cammauf_%289255082055%29.jpg/960px-Florida_Panther_%281%29%2C_NPSPhoto%2C_Rodney_Cammauf_%289255082055%29.jpg"
         ]
     },
     {
         "name": "Gates of the Arctic",
         "location": "Alaska",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Remote_river_in_Gates_of_the_Arctic_%2816524035298%29.jpg/1280px-Remote_river_in_Gates_of_the_Arctic_%2816524035298%29.jpg",
         "essence": "The country's northernmost park protects an expanse of pure wilderness in Alaska's Brooks Range and has no park facilities. The land is home to Alaska Natives who have relied on the land and caribou for 11,000 years.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/c/c0/Wolverine_in_Gates_of_the_Arctic_NP.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Rock_Formations_in_Gates_of_the_Arctic_National_Park._Brooks_Range%2C_Alaska.jpg/960px-Rock_Formations_in_Gates_of_the_Arctic_National_Park._Brooks_Range%2C_Alaska.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Top_of_the_pass%2C_overlooking_a_glacier_in_Gates_of_the_Arctic_National_Park_%289840464764%29.jpg/960px-Top_of_the_pass%2C_overlooking_a_glacier_in_Gates_of_the_Arctic_National_Park_%289840464764%29.jpg"
         ]
     },
     {
         "name": "Gateway Arch",
         "location": "Missouri",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Gateway_Arch%2C_St._Louis.jpg/1280px-Gateway_Arch%2C_St._Louis.jpg",
         "essence": "The Gateway Arch is a 630-foot (192 m) (both high and wide) catenary arch built in the 1960s to commemorate the Lewis and Clark Expedition, initiated by Thomas Jefferson, and the subsequent westward expansion of the country. The nearby Old Courthouse, across a greenway to the west of the arch, was the original site of the landmark Dred Scott case about slavery. An underground museum describes the arch's construction and the country's westward expansion.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Gateway_Arch%2C_St._Louis.jpg/960px-Gateway_Arch%2C_St._Louis.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Missouri_quarter%2C_reverse_side%2C_2003.jpg/960px-Missouri_quarter%2C_reverse_side%2C_2003.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/St._Louis_riverfront_after_demolition_for_Gateway_Arch_%281942%29.jpg/960px-St._Louis_riverfront_after_demolition_for_Gateway_Arch_%281942%29.jpg"
         ]
     },
     {
         "name": "Glacier",
         "location": "Montana",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Mountain_Goat_at_Hidden_Lake.jpg/1280px-Mountain_Goat_at_Hidden_Lake.jpg",
         "essence": "The U.S. half of Waterton-Glacier International Peace Park, this park includes 26 rapidly receding glaciers and 130 named lakes surrounded by Rocky Mountain peaks. Historic hotels and the landmark Going-to-the-Sun Road accommodate visitors. The local mountains, formed by an overthrust, expose Paleozoic fossils including trilobites, mollusks, giant ferns and dinosaurs. The park is also home to Triple Divide Peak, which forms the boundary between the watersheds of the Atlantic, Pacific, and Arctic Oceans.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/St_Mary_Lake.jpg/960px-St_Mary_Lake.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Grinnell_Glacier_1998.jpg/960px-Grinnell_Glacier_1998.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/3/39/Big_Drift.jpg"
         ]
     },
     {
         "name": "Glacier Bay",
         "location": "Alaska",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/b/bf/A045%2C_Glacier_Bay_National_Park%2C_Alaska%2C_USA%2C_Johns_Hopkins_Glacier%2C_2002.jpg",
         "essence": "Glacier Bay contains tidewater glaciers, mountains, fjords, and a temperate rainforest, and is home to large populations of grizzly bears, mountain goats, whales, seals, and eagles. When discovered in 1794 by George Vancouver, the entire bay was covered by ice, but the glaciers have since receded more than 65 miles (105 km).",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Glacier_Bay_National_Park_and_Preserve_Sign.jpg/960px-Glacier_Bay_National_Park_and_Preserve_Sign.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/e/e7/A044%2C_Glacier_Bay_National_Park%2C_Alaska%2C_USA%2C_Brady_Icefield%2C_2002.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/5/52/GlacierBayGeologicColumn.png"
         ]
     },
     {
         "name": "Grand Canyon",
         "location": "Arizona",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Dawn_on_the_S_rim_of_the_Grand_Canyon_%288645178272%29.jpg/1280px-Dawn_on_the_S_rim_of_the_Grand_Canyon_%288645178272%29.jpg",
         "essence": "The Grand Canyon, carved by the mighty Colorado River, is 277 miles (446 km) long, up to 1 mile (1.6 km) deep, and up to 15 miles (24 km) wide. Millions of years of erosion have resulted in a massive three-tiered canyon, exposing the multicolored layers of the Colorado Plateau in mesas and canyon walls, visible from trails that descend into the canyon from the north and south rims.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/7/71/Yavapai_Observation_Station.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Grand_Canyon_Powell_Point_Evening_Light_02_2013.jpg/960px-Grand_Canyon_Powell_Point_Evening_Light_02_2013.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Cape_Royal_Sunset.jpg/960px-Cape_Royal_Sunset.jpg"
         ]
     },
     {
         "name": "Grand Teton",
         "location": "Wyoming",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Barns_grand_tetons.jpg/1280px-Barns_grand_tetons.jpg",
         "essence": "Grand Teton is the tallest mountain in the scenic Teton Range. The park's historic Jackson Hole and reflective piedmont lakes teem with endemic wildlife, with a backdrop of craggy mountains that rise abruptly from the sage-covered valley below.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Pinus_albicaulis_8574.JPG/960px-Pinus_albicaulis_8574.JPG",
+            "https://upload.wikimedia.org/wikipedia/commons/6/6a/Teton_fault_block.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Colter_bay_boats_20100822_080110_1.jpg/960px-Colter_bay_boats_20100822_080110_1.jpg"
         ]
     },
     {
         "name": "Great Basin",
         "location": "Nevada",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/b/be/Prometheus_Wheeler.jpg",
         "essence": "Based around Nevada's second tallest mountain, Wheeler Peak, Great Basin National Park protects 5,000-year-old bristlecone pines, a rock glacier, and the limestone Lehman Caves. Due to its remote location, the park is home to some of the country's darkest night skies. Wildlife includes the Townsend's big-eared bat, pronghorn, and Bonneville cutthroat trout.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/2013-07-14_09_37_43_Wheeler_Peak_viewed_from_Wheeler_Peak_Scenic_Drive_in_Great_Basin_National_Park.jpg/960px-2013-07-14_09_37_43_Wheeler_Peak_viewed_from_Wheeler_Peak_Scenic_Drive_in_Great_Basin_National_Park.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/2013-07-14_09_22_54_Conifer_forest_along_Wheeler_Peak_Scenic_Drive_in_Great_Basin_National_Park.jpg/960px-2013-07-14_09_22_54_Conifer_forest_along_Wheeler_Peak_Scenic_Drive_in_Great_Basin_National_Park.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Wheeler_Peak_and_Great_Basin_National_Park.jpg/960px-Wheeler_Peak_and_Great_Basin_National_Park.jpg"
         ]
     },
     {
         "name": "Great Sand Dunes",
         "location": "Colorado",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Great_Sand_Dunes_National_Park_and_Preserve%2C_United_States_%28Unsplash%29.jpg/1280px-Great_Sand_Dunes_National_Park_and_Preserve%2C_United_States_%28Unsplash%29.jpg",
         "essence": "The tallest sand dunes in North America, up to 750 feet (230 m) tall, were formed by deposits of the ancient Rio Grande in the San Luis Valley. Abutting a variety of grasslands, shrublands, and wetlands, the park also features alpine lakes, six 13,000-foot mountains, and old-growth forests.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/A606%2C_Star_Dune%2C_Great_Sand_Dunes_National_Park%2C_Colorado%2C_United_States%2C_2008.jpg/960px-A606%2C_Star_Dune%2C_Great_Sand_Dunes_National_Park%2C_Colorado%2C_United_States%2C_2008.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/AerialGreatSandDunes.jpg/960px-AerialGreatSandDunes.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/8/8e/John_Charles_Fremont%2C_engraving.jpg"
         ]
     },
     {
         "name": "Great Smoky Mountains",
         "location": "North Carolina, Tennessee",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/View_atop_Cliff_Tops_on_Mount_LeConte%2C_GSMNP%2C_TN.jpg/1280px-View_atop_Cliff_Tops_on_Mount_LeConte%2C_GSMNP%2C_TN.jpg",
         "essence": "The Great Smoky Mountains, part of the Appalachian Mountains, span a wide range of elevations, making them home to over 400 vertebrate species, 100 tree species, and 5,000 plant species. Hiking is the park's main attraction, with over 800 miles (1,300 km) of trails, including 70 miles (110 km) of the Appalachian Trail. Other activities include fishing, horseback riding, and touring nearly 80 historic structures.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Common_Yellowthroat%2C_April_2017--Warren_Bielenberg_%2840153610071%29.jpg/960px-Common_Yellowthroat%2C_April_2017--Warren_Bielenberg_%2840153610071%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/View_atop_Cliff_Tops_on_Mount_LeConte%2C_GSMNP%2C_TN.jpg/960px-View_atop_Cliff_Tops_on_Mount_LeConte%2C_GSMNP%2C_TN.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/3/3b/Johnownbycabin5.jpg"
         ]
     },
     {
         "name": "Guadalupe Mountains",
         "location": "Texas",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Guadalupe_Peak_from_Hunter_Peak.jpg/1280px-Guadalupe_Peak_from_Hunter_Peak.jpg",
         "essence": "This park contains Guadalupe Peak, the highest point in Texas, as well as the scenic McKittrick Canyon filled with bigtooth maples, a corner of the arid Chihuahuan Desert, and a fossilized coral reef from the Permian era.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/McKittrick_Canyon_Trail_2008.jpg/960px-McKittrick_Canyon_Trail_2008.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/1/19/Ship_on_The_Desert_home_of_Wallice_Pratt%2C_landscape.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Guadalupe_Peak_from_Hunter_Peak.jpg/960px-Guadalupe_Peak_from_Hunter_Peak.jpg"
         ]
     },
     {
-        "name": "Haleakalā",
+        "name": "Haleakal\u0101",
         "location": "Hawaii",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
-        "essence": "The Haleakalā volcano on Maui features a very large crater with numerous cinder cones, a grove of non-native trees, the Kipahulu section's scenic pools of freshwater fish, and the endemic Hawaiian goose. The park protects the greatest number of endangered species within a U.S. national park.",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Haleakala_National_Park_02.jpg/1280px-Haleakala_National_Park_02.jpg",
+        "essence": "The Haleakal\u0101 volcano on Maui features a very large crater with numerous cinder cones, a grove of non-native trees, the Kipahulu section's scenic pools of freshwater fish, and the endemic Hawaiian goose. The park protects the greatest number of endangered species within a U.S. national park.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Haleakala_Observatory_2017.jpg/960px-Haleakala_Observatory_2017.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Kipahulu_coast.jpg/960px-Kipahulu_coast.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Driving_To_The_Summit.jpg/960px-Driving_To_The_Summit.jpg"
         ]
     },
     {
-        "name": "Hawaiʻi Volcanoes",
+        "name": "Hawai\u02bbi Volcanoes",
         "location": "Hawaii",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
-        "essence": "This park on the Big Island protects the Kīlauea and Mauna Loa volcanoes, two of the world's most active geological features. Diverse ecosystems range from tropical forests at sea level to barren lava beds at more than 13,000 feet (4,000 m).",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/P%C4%81hoehoe_and_Aa_flows_at_Hawaii.jpg/1280px-P%C4%81hoehoe_and_Aa_flows_at_Hawaii.jpg",
+        "essence": "This park on the Big Island protects the K\u012blauea and Mauna Loa volcanoes, two of the world's most active geological features. Diverse ecosystems range from tropical forests at sea level to barren lava beds at more than 13,000 feet (4,000 m).",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Hawai%CA%BBi_Volcanoes_National_Park%2C_August_2016.jpg/960px-Hawai%CA%BBi_Volcanoes_National_Park%2C_August_2016.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Thurston_lava_tube.jpg/960px-Thurston_lava_tube.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Sulfur_dioxide_emissions_from_the_Halemaumau_vent_04-08-1_1.jpg/960px-Sulfur_dioxide_emissions_from_the_Halemaumau_vent_04-08-1_1.jpg"
         ]
     },
     {
         "name": "Hot Springs",
         "location": "Arkansas",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Steamy_Entrance_Springs_on_Cold_Night_in_Hot_Springs_National_Park.jpg/1280px-Steamy_Entrance_Springs_on_Cold_Night_in_Hot_Springs_National_Park.jpg",
         "essence": "Hot Springs was originally established by Congress as a federal reserve on April 20, 1832, making it the oldest area managed by the National Park Service. Natural thermal springs flow out of the Ouachita Mountains, providing opportunities for relaxation in a historic setting. Bathhouse Row preserves examples of 19th-century architecture. Hot Springs is the first national park within a city and was the smallest national park until 2018.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Ozark_BH_P6220178.jpg/960px-Ozark_BH_P6220178.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/5/54/Hot_Springs_water_flow_concept_Yeatts_2006.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Hot_Springs_National_Park_Buckstaff_BH_%28active%29.JPG/960px-Hot_Springs_National_Park_Buckstaff_BH_%28active%29.JPG"
         ]
     },
     {
         "name": "Indiana Dunes",
         "location": "Indiana",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Indiana_Dunes_National_Lakeshore%2C_Michigan_City%2C_Indiana%2C_Estados_Unidos%2C_2012-10-20%2C_DD_03.jpg/1280px-Indiana_Dunes_National_Lakeshore%2C_Michigan_City%2C_Indiana%2C_Estados_Unidos%2C_2012-10-20%2C_DD_03.jpg",
         "essence": "Previously designated a national lakeshore, parts of this 20-mile (32 km) stretch of the southern shore of Lake Michigan have sandy beaches and tall dunes. The park includes grassy prairies, peat bogs, and marsh wetlands home to over 2,000 species.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/d/d6/IndianaDunesBathHouse.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Cowles_Bog_Trail.PNG/938px-Cowles_Bog_Trail.PNG",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Glacial_Lake_Chicago_%2814%2C000_YBP%29_7a.jpg/960px-Glacial_Lake_Chicago_%2814%2C000_YBP%29_7a.jpg"
         ]
     },
     {
         "name": "Isle Royale",
         "location": "Michigan",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Edisen_Fishery_at_IRNP.jpg/1280px-Edisen_Fishery_at_IRNP.jpg",
         "essence": "The largest island in Lake Superior is a place of isolation and wilderness. Along with its many shipwrecks, waterways, and hiking trails, the park also includes over 400 smaller islands within 4.5 miles (7.2 km) of its shores. There are only 20 mammal species on the island, though the relationship between its wolf and moose populations is especially unique.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Moose_swimming_in_the_Rock_Harbor_channel.jpg/960px-Moose_swimming_in_the_Rock_Harbor_channel.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Walden_Pond%2C_Massachusetts_on_June_27%2C_2012.png/960px-Walden_Pond%2C_Massachusetts_on_June_27%2C_2012.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/IsleRoyalePlane.jpg/960px-IsleRoyalePlane.jpg"
         ]
     },
     {
         "name": "Joshua Tree",
         "location": "California",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Joshua_Tree_-_Cyclops_%2B_Potato_Head_-_Sunrise.jpg/1280px-Joshua_Tree_-_Cyclops_%2B_Potato_Head_-_Sunrise.jpg",
         "essence": "Covering large areas of the Colorado and Mojave Deserts and the Little San Bernardino Mountains, this desert landscape is populated by vast stands of Joshua trees. Large changes in elevation reveal various contrasting environments including bleached sand dunes, dry lakes, rugged mountains, and maze-like clusters of monzogranite monoliths.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/b/b0/JoshuatreeNP.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Jumbo_Rocks_Campground_in_Joshua_Tree_National_Park_-_10.jpg/960px-Jumbo_Rocks_Campground_in_Joshua_Tree_National_Park_-_10.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Quail_Springs_Joshua_Tree_2022a.jpg/960px-Quail_Springs_Joshua_Tree_2022a.jpg"
         ]
     },
     {
         "name": "Katmai",
         "location": "Alaska",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Katmai_Crater_1980.jpg/1280px-Katmai_Crater_1980.jpg",
         "essence": "This park on the Alaska Peninsula protects the Valley of Ten Thousand Smokes, an ash flow formed by the 1912 eruption of Novarupta, and the stratovolcano Mount Katmai. Over 2,000 grizzly bears come here each year to catch spawning salmon. Other wildlife includes caribou, wolves, moose, and wolverines.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Grizzly_Bear_Fishing_Brooks_Falls.jpg/960px-Grizzly_Bear_Fishing_Brooks_Falls.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/1/11/A055%2C_Katmai_National_Park%2C_Brooks_Falls%2C_Alaska%2C_USA%2C_mountains%2C_2002.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/0/06/Novarupta.jpg"
         ]
     },
     {
         "name": "Kenai Fjords",
         "location": "Alaska",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Kenai_Fjords_coast.jpg",
         "essence": "Near Seward on the Kenai Peninsula, this park protects the Harding Icefield and at least 38 glaciers and fjords stemming from it. The only area accessible to the public by road is the rapidly shrinking Exit Glacier. Boat and kayak tours offer views of tidewater glaciers, whales, sea lions, and marine birds.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Bear_Glacier%2C_Kenai_Fjords_National_Park_%286808652535%29.jpg/960px-Bear_Glacier%2C_Kenai_Fjords_National_Park_%286808652535%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Sailboat_at_the_mouth_of_Thumb_Cove%2C_Resurrection_Bay.jpg/960px-Sailboat_at_the_mouth_of_Thumb_Cove%2C_Resurrection_Bay.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Kenai_Fjords_coast.jpg/960px-Kenai_Fjords_coast.jpg"
         ]
     },
     {
         "name": "Kings Canyon",
         "location": "California",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/KingsCanyonNP.JPG/1280px-KingsCanyonNP.JPG",
         "essence": "Home to several giant sequoia groves and the General Grant Tree, the world's second largest measured tree, this park also features part of the Kings River, sculptor of the dramatic granite canyon that is its namesake, and the San Joaquin River, as well as Boyden Cave. Although Kings Canyon National Park was designated as such in 1940, it subsumed General Grant National Park, which had been established on October 1, 1890, as the United States' fourth national park.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Albert_Bierstadt_Kings_River_Canyon_California.jpg/960px-Albert_Bierstadt_Kings_River_Canyon_California.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Albert_Bierstadt_-_Mount_Brewer_from_King%27s_River_Canyon%2C_California.jpg/960px-Albert_Bierstadt_-_Mount_Brewer_from_King%27s_River_Canyon%2C_California.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Kings_Canyon_National_Park_03.jpg/960px-Kings_Canyon_National_Park_03.jpg"
         ]
     },
     {
         "name": "Kobuk Valley",
         "location": "Alaska",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
-        "essence": "Kobuk Valley protects 61 miles (98 km) of the Kobuk River and three regions of sand dunes. Created by glaciers, the Great Kobuk, Little Kobuk, and Hunt River Sand Dunes can reach 100 feet (30 m) high and 100 °F (38 °C), and they are the largest dunes in the Arctic. Twice a year, half a million caribou migrate through the dunes and across river bluffs that expose well-preserved ice age fossils.",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Kobuk_Bendlova_235.jpg/1280px-Kobuk_Bendlova_235.jpg",
+        "essence": "Kobuk Valley protects 61 miles (98 km) of the Kobuk River and three regions of sand dunes. Created by glaciers, the Great Kobuk, Little Kobuk, and Hunt River Sand Dunes can reach 100 feet (30 m) high and 100 \u00b0F (38 \u00b0C), and they are the largest dunes in the Arctic. Twice a year, half a million caribou migrate through the dunes and across river bluffs that expose well-preserved ice age fossils.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/KobukDunes.jpg/960px-KobukDunes.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Kobuk_Bendlova_235.jpg/960px-Kobuk_Bendlova_235.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Giddings_Cabin_and_Cache.jpg/960px-Giddings_Cabin_and_Cache.jpg"
         ]
     },
     {
         "name": "Lake Clark",
         "location": "Alaska",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Lake_Clark_National_Park.jpg",
         "essence": "The region around Lake Clark features four active volcanoes, including Mount Redoubt, as well as an abundance of rivers, glaciers, and waterfalls. Temperate rainforests, a tundra plateau, and three mountain ranges complete the landscape.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Iliamna_Volcano.jpg/960px-Iliamna_Volcano.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/a/ac/Lake_Clark_National_Park.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/MtRedoubtedit1.jpg/960px-MtRedoubtedit1.jpg"
         ]
     },
     {
         "name": "Lassen Volcanic",
         "location": "California",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Lassen_Peak_and_Lake_Helen.jpg/1280px-Lassen_Peak_and_Lake_Helen.jpg",
         "essence": "Lassen Peak, the largest lava dome volcano in the world, is joined by all three other types of volcanoes in this park: shield, cinder cone, and composite. Though Lassen itself last erupted in 1915, most of the rest of the park is continuously active. Numerous hydrothermal features, including fumaroles, boiling pools, and bubbling mud pots, are heated by molten rock from beneath the peak.",
         "gallery": [
-            "https.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Lassen.JPG/960px-Lassen.JPG",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Lassen_Peak_from_the_summit_of_Brokeoff_Mountain-1200px.jpg/960px-Lassen_Peak_from_the_summit_of_Brokeoff_Mountain-1200px.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cinder_Cone_at_Lassen_Volcanic_National_Park.jpg/960px-Cinder_Cone_at_Lassen_Volcanic_National_Park.jpg"
         ]
     },
     {
         "name": "Mammoth Cave",
         "location": "Kentucky",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Mammoth_Cave_Rotunda_%28USGS_Lwt02830%29.jpg/1280px-Mammoth_Cave_Rotunda_%28USGS_Lwt02830%29.jpg",
         "essence": "With more than 400 miles (640 km) of passageways explored, Mammoth Cave is the world's longest known cave system. Subterranean wildlife includes eight bat species, Kentucky cave shrimp, Northern cavefish, and cave salamanders. Above ground, the park provides recreation on the Green River, 70 miles of hiking trails, and plenty of sinkholes and springs.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Eurycea_lucifuga_in_natural_habitat.jpg/960px-Eurycea_lucifuga_in_natural_habitat.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/8/83/Kentucky_cave_shrimp_%28Palaemonias_ganteri%29_%2812434722624%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Mammoth_Cave_National_Park_EYELESSF.jpg/960px-Mammoth_Cave_National_Park_EYELESSF.jpg"
         ]
     },
     {
         "name": "Mesa Verde",
         "location": "Colorado",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Cliff_Palace-Colorado-Mesa_Verde_NP.jpg/1280px-Cliff_Palace-Colorado-Mesa_Verde_NP.jpg",
         "essence": "This area constitutes over 4,000 archaeological sites of the Ancestral Puebloan people, who lived here and elsewhere in the Four Corners region for at least 700 years. Cliff dwellings built in the 12th and 13th centuries include Cliff Palace, which has 150 rooms and 23 kivas, and the Balcony House, with its many passages and tunnels.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Cyark_elevation_fire_temple.jpg/826px-Cyark_elevation_fire_temple.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Cliff_Palace%2C_Mesa_Verde_Park%2C_Colorado%2C_US_%2829%29.jpg/960px-Cliff_Palace%2C_Mesa_Verde_Park%2C_Colorado%2C_US_%2829%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Mesa-Verde---Cliff-Palace-in_1891_-_edit1.jpg/960px-Mesa-Verde---Cliff-Palace-in_1891_-_edit1.jpg"
         ]
     },
     {
         "name": "Mount Rainier",
         "location": "Washington",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Mount_Rainier_from_above_Myrtle_Falls_in_August.JPG/1280px-Mount_Rainier_from_above_Myrtle_Falls_in_August.JPG",
         "essence": "Mount Rainier, an active stratovolcano, is the most prominent peak in the Cascades and is covered by 26 named glaciers including Carbon Glacier and Emmons Glacier, the longest and largest in the contiguous United States respectively. The mountain is popular for climbing, and more than half of the park is covered by subalpine and alpine forests and meadows seasonally in bloom with wildflowers. Paradise on the south slope is among the snowiest places on Earth. The Longmire visitor center is the start of the Wonderland Trail, which encircles the mountain.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Ohanapecosh_Glacier_22942.JPG/960px-Ohanapecosh_Glacier_22942.JPG",
+            "https://upload.wikimedia.org/wikipedia/commons/7/78/John_Muir_at_summit_Mount_Rainier_1888.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Mt_Rainier_Panorama_from_the_south.jpg/960px-Mt_Rainier_Panorama_from_the_south.jpg"
         ]
     },
     {
         "name": "New River Gorge",
         "location": "West Virginia",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Grandview_Overlook%2C_New_River.jpg/1280px-Grandview_Overlook%2C_New_River.jpg",
         "essence": "The New River Gorge is the deepest river gorge east of the Mississippi River. The park primarily covers the lower gorge area around the New River Gorge Bridge, which features some of the country's best whitewater rafting. Smaller noncontiguous sections showcase the ghost town of Thurmond, the scenic Grandview vista, and Sandstone Falls. The other 65,165 acres (263.71 km2) of the redesignated national river is now a national preserve, spanning 53 miles (85 km) of the New River.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/EndlessWallWV.jpg/960px-EndlessWallWV.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Nuttallburg_WV_-_Mine_Conveyor.jpg/960px-Nuttallburg_WV_-_Mine_Conveyor.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/New_River_Gorge_-_Four_sheets_to_the_wind.jpg/960px-New_River_Gorge_-_Four_sheets_to_the_wind.jpg"
         ]
     },
     {
         "name": "North Cascades",
         "location": "Washington",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cascade_Pass_and_Pelton_Basin.jpg/1280px-Cascade_Pass_and_Pelton_Basin.jpg",
         "essence": "The highly glaciated mountains of the North Cascades Range exhibit a spectacular and complex geologic history. Between the river valleys and high peaks there are eight diverse life zones with 75 mammal and 1,600 vascular plant species. Popular hiking and climbing areas of the Stephen Mather Wilderness include Cascade Pass, Mount Shuksan, Mount Triumph, and Eldorado Peak. Ross Lake and Lake Chelan National Recreation Areas adjoin the two segments of the park and are all administered together.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/d/d3/NPS_DirectorandStaff.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Mount_Shuksan_tarn.jpg/960px-Mount_Shuksan_tarn.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Eldorado_Peak_8700s.JPG/960px-Eldorado_Peak_8700s.JPG"
         ]
     },
     {
         "name": "Olympic",
         "location": "Washington",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Cedar_Creek_Abbey_Island_Ruby_Beach.jpg/1280px-Cedar_Creek_Abbey_Island_Ruby_Beach.jpg",
         "essence": "This park on the Olympic Peninsula includes a wide range of ecosystems from Pacific shoreline to temperate rainforests to the glaciated alpine peaks of the Olympic Mountains, the tallest of which is Mount Olympus. The Hoh and Quinault Rainforests are the wettest areas in the contiguous United States, with the Hoh receiving an average of almost 12 ft (3.7 m) of rain every year.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Odocoileus_hemionus_5444.JPG/960px-Odocoileus_hemionus_5444.JPG",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/HurricaneRidge_7392t.jpg/960px-HurricaneRidge_7392t.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/d/df/A058%2C_Olympic_National_Park%2C_Washington%2C_USA%2C_tidepools%2C_2002.jpg"
         ]
     },
     {
         "name": "Petrified Forest",
         "location": "Arizona",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Jasper_Forest_at_Petrified_Forest_NP_in_AZ_12.jpg/1280px-Jasper_Forest_at_Petrified_Forest_NP_in_AZ_12.jpg",
         "essence": "This portion of the Chinle Formation has a large concentration of 225-million-year-old petrified wood. The surrounding Painted Desert features eroded cliffs of red-hued volcanic rock called bentonite. Dinosaur fossils and over 350 Native American sites are also protected in this park.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Afternoon_at_Agate_Bridge.jpg/960px-Afternoon_at_Agate_Bridge.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Shortgrass_pano_Petrified_Forest_NP.jpg/960px-Shortgrass_pano_Petrified_Forest_NP.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Western_Meadowlark.jpg/960px-Western_Meadowlark.jpg"
         ]
     },
     {
         "name": "Pinnacles",
         "location": "California",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Rock_formations_at_Pinnacles_National_Park.jpg/1280px-Rock_formations_at_Pinnacles_National_Park.jpg",
         "essence": "Named for the eroded leftovers of a portion of an extinct volcano, the park's massive black and gold monoliths of andesite and rhyolite are a popular destination for rock climbers. Hikers have access to trails crossing the Coast Range wilderness. The park is one of the few locations where the endangered California condor can be seen in the wild. Pinnacles also supports a dense population of prairie falcons and more than 13 species of bat that populate its talus caves.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Step_by_Step.jpg/960px-Step_by_Step.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/US_Pinnacles_National_Park_Marker_for_Peak_View.jpg/960px-US_Pinnacles_National_Park_Marker_for_Peak_View.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/High_Peaks_Trail_Panorama.jpg/960px-High_Peaks_Trail_Panorama.jpg"
         ]
     },
     {
         "name": "Redwood",
         "location": "California",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/d/de/Redwood_National_Park%2C_fog_in_the_forest.jpg",
         "essence": "This park and the co-managed state parks protect almost half of all remaining coastal redwoods, the tallest trees on earth. There are three large river systems in this very seismically active area, and 37 miles (60 km) of protected coastline reveal tide pools and seastacks. The prairie, estuary, coast, river, and forest ecosystems contain a wide variety of animal and plant species.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Fern_Canyon_pano_1.jpg/960px-Fern_Canyon_pano_1.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/e/e1/Frank-Lake_TanoakOrchardProperty-Oct2019.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Horse_riding_RNP.png/960px-Horse_riding_RNP.png"
         ]
     },
     {
         "name": "Rocky Mountain",
         "location": "Colorado",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Rocky_Mountain_National_Park_in_September_2011_-_Glacier_Gorge_from_Bear_Lake.JPG/1280px-Rocky_Mountain_National_Park_in_September_2011_-_Glacier_Gorge_from_Bear_Lake.JPG",
         "essence": "Bisected north to south by the Continental Divide, this portion of the Rockies has ecosystems varying from over 150 riparian lakes to montane and subalpine forests to treeless alpine tundra. Wildlife including elk, moose, mule deer, bighorn sheep, black bears, and cougars inhabit its igneous mountains and glacial valleys. Longs Peak, a classic Colorado fourteener, and the scenic Bear Lake are popular destinations, as well as the historic Trail Ridge Road, which reaches an elevation of more than 12,000 feet (3,700 m).",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Rocky_Mountain_National_Park_in_September_2011_-_view_from_Many_Parks_Curve.JPG/960px-Rocky_Mountain_National_Park_in_September_2011_-_view_from_Many_Parks_Curve.JPG",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Longspeakdream.JPG/960px-Longspeakdream.JPG",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Rocky_Mountain_National_Park_in_September_2011_-_tor_complex_on_Tundra_Communities_Trail.JPG/960px-Rocky_Mountain_National_Park_in_September_2011_-_tor_complex_on_Tundra_Communities_Trail.JPG"
         ]
     },
     {
         "name": "Saguaro",
         "location": "Arizona",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Saguaro_Sunset.jpg/1280px-Saguaro_Sunset.jpg",
         "essence": "Split into the separate Rincon Mountain and Tucson Mountain districts, this park is evidence that the dry Sonoran Desert is still home to a great variety of life spanning six biotic communities. Beyond the namesake giant saguaro cacti, there are barrel cacti, chollas, and prickly pears, as well as lesser long-nosed bats, spotted owls, and javelinas.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Fairy_duster_Saguaro_NP.jpg/960px-Fairy_duster_Saguaro_NP.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Rincon_mountains_from_edge_of_tucson.jpg/960px-Rincon_mountains_from_edge_of_tucson.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Saguaro_cactus_forest.jpg/960px-Saguaro_cactus_forest.jpg"
         ]
     },
     {
         "name": "Sequoia",
         "location": "California",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/General_Sherman_Tree_in_Sequoia_National_Park_-_June_2022.jpg/1280px-General_Sherman_Tree_in_Sequoia_National_Park_-_June_2022.jpg",
         "essence": "This park protects the Giant Forest, which boasts some of the world's largest trees, the General Sherman being the largest measured tree in the park. Other features include over 240 caves, a long segment of the Sierra Nevada including the tallest mountain in the contiguous United States, and Moro Rock, a large granite dome.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/General_Sherman_Tree_in_Sequoia_National_Park_-_June_2022.jpg/960px-General_Sherman_Tree_in_Sequoia_National_Park_-_June_2022.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Red_Fir_by_Crescent_Meadow.jpg/960px-Red_Fir_by_Crescent_Meadow.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Half_Dome_from_Glacier_Point%2C_Yosemite_NP_-_Diliff.jpg/960px-Half_Dome_from_Glacier_Point%2C_Yosemite_NP_-_Diliff.jpg"
         ]
     },
     {
         "name": "Shenandoah",
         "location": "Virginia",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Skyline_Drive_in_the_Fall_%2821852619608%29.jpg/1280px-Skyline_Drive_in_the_Fall_%2821852619608%29.jpg",
         "essence": "Shenandoah's Blue Ridge Mountains are covered by hardwood forests that teem with a wide variety of wildlife. The Skyline Drive and Appalachian Trail run the entire length of this narrow park, along with more than 500 miles (800 km) of hiking trails passing scenic overlooks and cataracts of the Shenandoah River.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/2/23/Whiteoak_Canyon_Shenandoah_NP_2005.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Massanutten_Lodge_VA1.jpg/960px-Massanutten_Lodge_VA1.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Shenandoah_Red_Oaks.jpg/960px-Shenandoah_Red_Oaks.jpg"
         ]
     },
     {
         "name": "Theodore Roosevelt",
         "location": "North Dakota",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/View_of_Theodore_Roosevelt_National_Park.jpg/1280px-View_of_Theodore_Roosevelt_National_Park.jpg",
         "essence": "This region that enticed and influenced President Theodore Roosevelt consists of a park of three units in the northern badlands. Besides Roosevelt's historic cabin, there are numerous scenic drives and backcountry hiking opportunities. Wildlife includes American bison, pronghorn, bighorn sheep, and wild horses.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/View_of_Theodore_Roosevelt_National_Park.jpg/960px-View_of_Theodore_Roosevelt_National_Park.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Bison_and_sign_Theodore_Roosevelt_NP_ND1.jpg/960px-Bison_and_sign_Theodore_Roosevelt_NP_ND1.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Rainbow_in_badlands_Theodore_Roosevelt_NP_ND1.jpg/960px-Rainbow_in_badlands_Theodore_Roosevelt_NP_ND1.jpg"
         ]
     },
     {
         "name": "Virgin Islands",
         "location": "U.S. Virgin Islands",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
-        "essence": "This island park on Saint John preserves pristine beaches surrounded by mangrove forests, seagrass beds, and coral reefs. It also has Taíno archaeological sites and the ruins of sugar plantations from Columbus's time.",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/St_John_Trunk_Bay_3.jpg/1280px-St_John_Trunk_Bay_3.jpg",
+        "essence": "This island park on Saint John preserves pristine beaches surrounded by mangrove forests, seagrass beds, and coral reefs. It also has Ta\u00edno archaeological sites and the ruins of sugar plantations from Columbus's time.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Caneel_Bay_Boat_Mary_II_at_Caneel_Beach.jpg/960px-Caneel_Bay_Boat_Mary_II_at_Caneel_Beach.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/St_John_Trunk_Bay_3.jpg/960px-St_John_Trunk_Bay_3.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Sunscreen_in_the_Water_%2824775121614%29.jpg/960px-Sunscreen_in_the_Water_%2824775121614%29.jpg"
         ]
     },
     {
         "name": "Voyageurs",
         "location": "Minnesota",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
-        "essence": "This park protecting four lakes near the Canada–US border is a site for canoeing, kayaking, and fishing. The park also preserves a history populated by Ojibwe Native Americans, French fur traders called voyageurs, and gold miners. Formed by glaciers, the region features tall bluffs, rock gardens, islands, bays, and several historic buildings.",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Voyageurs_National_Park.jpg",
+        "essence": "This park protecting four lakes near the Canada\u2013US border is a site for canoeing, kayaking, and fishing. The park also preserves a history populated by Ojibwe Native Americans, French fur traders called voyageurs, and gold miners. Formed by glaciers, the region features tall bluffs, rock gardens, islands, bays, and several historic buildings.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/e/e5/Voya-ImageF_00017_%28camping%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/9/98/VOYA_P7150582_Kab_Tour_Boat_%28Otter%29.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Voyageurs_National_Park.jpg/820px-Voyageurs_National_Park.jpg"
         ]
     },
     {
         "name": "White Sands",
         "location": "New Mexico",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
-        "essence": "Located in the mountain-ringed Tularosa Basin, White Sands consists of the southern part of a 275-square-mile (710 km2) field of white sand dunes composed of gypsum crystals—the world's largest gypsum dunefield. The park is completely within the White Sands Missile Range and is subject to closure when tests are conducted.",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Aerial_view_of_dunefield%2C_White_Sands_National_Park%2C_New_Mexico%2C_United_States.png",
+        "essence": "Located in the mountain-ringed Tularosa Basin, White Sands consists of the southern part of a 275-square-mile (710 km2) field of white sand dunes composed of gypsum crystals\u2014the world's largest gypsum dunefield. The park is completely within the White Sands Missile Range and is subject to closure when tests are conducted.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/2/26/Bleached_earless_lizard%2C_White_Sands_National_Park%2C_New_Mexico%2C_United_States.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Paleontological_landscape_painting%2C_White_Sands_National_Park%2C_United_States.jpg/960px-Paleontological_landscape_painting%2C_White_Sands_National_Park%2C_United_States.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Lake_Lucero_NPS_photo.jpg/960px-Lake_Lucero_NPS_photo.jpg"
         ]
     },
     {
         "name": "Wind Cave",
         "location": "South Dakota",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Skyway_Lake%2C_stalactites%2C_Wind_Cave.jpg/1280px-Skyway_Lake%2C_stalactites%2C_Wind_Cave.jpg",
         "essence": "Wind Cave is distinctive for its calcite fin formations called boxwork, a unique formation rarely found elsewhere, and needle-like growths called frostwork. It is one of the longest caves in the world and creates a wind as air pressure changes. Above ground is a mixed-grass prairie with animals such as bison, black-footed ferrets, and prairie dogs and ponderosa pine forests home to cougars and elk. The cave is culturally significant to the Lakota people as a creation site.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Calcite_boxwork%2C_Wind_Cave.jpg/960px-Calcite_boxwork%2C_Wind_Cave.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/b/b4/A556%2C_Wind_Cave_National_Park%2C_South_Dakota%2C_USA%2C_2001.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Badlands_NP_2006-09-03_%28241257945%29.jpg/960px-Badlands_NP_2006-09-03_%28241257945%29.jpg"
         ]
     },
     {
-        "name": "Wrangell–St. Elias",
+        "name": "Wrangell\u2013St. Elias",
         "location": "Alaska",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Mt_Saint_Elias%2C_South_Central_Alaska.jpg",
         "essence": "The largest national park in the system protects the convergence of the Alaska, Chugach, Wrangell, and Saint Elias Ranges, which include many of the continent's tallest mountains and volcanoes, including the 18,008-foot Mount Saint Elias. More than a quarter of the park is covered with glaciers, including the tidewater Hubbard Glacier, piedmont Malaspina Glacier, and valley Nabesna Glacier.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Bremner_Mining_Camp_Mechanic%27s_Shop.jpg/960px-Bremner_Mining_Camp_Mechanic%27s_Shop.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Malaspina_Glacier_from_space.jpg/960px-Malaspina_Glacier_from_space.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Wrangell_St_Elias_National_Park%2C_McCarthy_Road%2C_near_Chitina%2C_Alaska%2C_USA_%2828_June_2009%29.jpg/960px-Wrangell_St_Elias_National_Park%2C_McCarthy_Road%2C_near_Chitina%2C_Alaska%2C_USA_%2828_June_2009%29.jpg"
         ]
     },
     {
         "name": "Yellowstone",
         "location": "Wyoming, Montana, Idaho",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/7/73/Grand_Canyon_of_yellowstone.jpg",
         "essence": "Situated on the Yellowstone Caldera, the park has an expansive network of geothermal areas including boiling mud pots, vividly colored hot springs such as Grand Prismatic Spring, and regularly erupting geysers, the best-known being Old Faithful. The yellow-hued Grand Canyon of the Yellowstone River contains several high waterfalls, and four mountain ranges traverse the park. More than 60 mammal species including timber wolves, grizzly bears, black bears, lynxes, bison, and elk make this park one of the best wildlife viewing spots in the country.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Crown_fire_Old_Faithful.jpg/960px-Crown_fire_Old_Faithful.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Steamboat_Geyser_Major_Eruption_in_2005.jpg/960px-Steamboat_Geyser_Major_Eruption_in_2005.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/WolfRunningInSnow.jpg/960px-WolfRunningInSnow.jpg"
         ]
     },
     {
         "name": "Yosemite",
         "location": "California",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Half_Dome_with_Eastern_Yosemite_Valley_%2850MP%29.jpg/1280px-Half_Dome_with_Eastern_Yosemite_Valley_%2850MP%29.jpg",
         "essence": "Yosemite features sheer granite cliffs, exceptionally tall waterfalls, and old-growth forests at a unique intersection of geology and hydrology. Half Dome and El Capitan rise from the park's centerpiece, the glacier-carved Yosemite Valley, and from its vertical walls drop Yosemite Falls, one of North America's tallest waterfalls at 2,425 feet (739 m) high. Three giant sequoia groves, along with a pristine wilderness in the heart of the Sierra Nevada, are home to a wide variety of rare plant and animal species.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Yosemite_Meadow_fire%2C_9-7-2014.jpg/960px-Yosemite_Meadow_fire%2C_9-7-2014.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/5/59/Wawona_Hotel.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/9/90/Mother_Curry_in_front_of_Camp_Curry.jpeg"
         ]
     },
     {
         "name": "Zion",
         "location": "Utah",
-        "heroImage": "https://www.nps.gov/common/uploads/structured_data/3C7A421D-1DD8-B71B-0B69F232A474F29B.jpg",
+        "heroImage": "https://upload.wikimedia.org/wikipedia/commons/1/10/Zion_angels_landing_view.jpg",
         "essence": "Located at the junction of the Colorado Plateau, Great Basin, and Mojave Desert, this park contains sandstone features such as mesas, rock towers, and canyons, including the Virgin River Narrows. The various sandstone formations and the forks of the Virgin River create a wilderness divided into four ecosystems: desert, riparian, woodland, and coniferous forest.",
         "gallery": [
-            "https://www.nps.gov/common/uploads/structured_data/3C7A4543-1DD8-B71B-0B051559868785F2.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A468A-1DD8-B71B-0B61539162953A81.jpg",
-            "https://www.nps.gov/common/uploads/structured_data/3C7A47D4-1DD8-B71B-0B64C5866D779161.jpg"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Kolob_Canyons_midway_through_Kolob_Canyons_Road.jpg/960px-Kolob_Canyons_midway_through_Kolob_Canyons_Road.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/2/2d/Zion_National_Park_poster_1938.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Hurricane_Cliffs1.jpeg/960px-Hurricane_Cliffs1.jpeg"
         ]
     }
 ]
