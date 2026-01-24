@@ -315,3 +315,56 @@ body {
         background-position: 0% 50%;
     }
 }
+
+@media (min-width: 768px) {
+    #app-container {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    #home-screen.locked {
+        max-width: 100%;
+    }
+
+    #home-screen .content-padding {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-top: 40px;
+    }
+
+    .park-card-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 30px;
+        padding: 0 30px;
+    }
+
+    .park-card {
+        height: 400px;
+        margin-bottom: 0;
+    }
+
+    .park-hero {
+       height: 50vh;
+    }
+
+    .park-content {
+        max-width: 1000px;
+        margin: -50px auto 0 auto;
+        border-radius: 30px 30px 0 0;
+        min-height: 50vh;
+    }
+
+    #onboarding-video {
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+    }
+
+    .close-button {
+        right: 60px;
+    }
+}
