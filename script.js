@@ -165,5 +165,202 @@
             const scrollTop = parkDetailScreen.scrollTop;
             parkHeroImage.style.transform = `translateZ(-1px) scale(2.1) translateY(${scrollTop * 0.3}px)`;
         });
+
+        // --- Guided Tour Logic ---
+        let currentTourStep = 0;
+        let isTourActive = false;
+
+        const tourOverlay = document.getElementById('tour-overlay');
+        const tourTooltip = document.getElementById('tour-tooltip');
+        const tourTitle = document.getElementById('tour-title');
+        const tourContent = document.getElementById('tour-content');
+        const tourStepCounter = document.getElementById('tour-step-counter');
+        const tourProgressBar = document.getElementById('tour-progress-bar');
+        const tourNextBtn = document.getElementById('tour-next-btn');
+        const tourPrevBtn = document.getElementById('tour-prev-btn');
+        const tourCloseBtn = document.getElementById('tour-close-btn');
+        const startTourBtn = document.getElementById('start-tour-btn');
+
+        const tourSteps = [
+            {
+                selector: '.search-container',
+                title: 'Find Your Sanctuary',
+                content: 'Looking for a specific destination? Type a park name or location here.',
+                placement: 'bottom'
+            },
+            {
+                selector: '.park-card',
+                title: 'Discover Places',
+                content: 'Explore curated vistas. Click on any card to immerse yourself in the details.',
+                placement: 'top',
+                onBefore: () => {
+                    if (parkDetailScreen.classList.contains('visible')) {
+                        closeParkDetail();
+                        return new Promise(resolve => setTimeout(resolve, 600)); // Wait for close animation
+                    }
+                }
+            },
+            {
+                selector: '#park-essence-section',
+                title: 'The Essence',
+                content: 'Read about what makes this place truly special and connect with its history.',
+                placement: 'top',
+                onBefore: () => {
+                    const firstParkCard = document.querySelector('.park-card');
+                    if (firstParkCard && !parkDetailScreen.classList.contains('visible')) {
+                        firstParkCard.click();
+                        return new Promise(resolve => setTimeout(resolve, 600)); // Wait for open animation
+                    }
+                }
+            },
+            {
+                selector: '.close-button',
+                title: 'Return to Explore',
+                content: 'Whenever you are ready, close the details view to return to the main gallery.',
+                placement: 'bottom'
+            }
+        ];
+
+        function startTour() {
+            isTourActive = true;
+            currentTourStep = 0;
+            tourOverlay.classList.remove('hidden');
+            tourTooltip.classList.remove('hidden');
+            renderTourStep();
+
+            // Allow closing with Escape
+            document.addEventListener('keydown', handleTourKeydown);
+            // Close if clicking overlay
+            tourOverlay.addEventListener('click', endTour);
+        }
+
+        function endTour() {
+            isTourActive = false;
+            tourOverlay.classList.add('hidden');
+            tourTooltip.classList.add('hidden');
+            clearTourHighlights();
+            document.removeEventListener('keydown', handleTourKeydown);
+            tourOverlay.removeEventListener('click', endTour);
+        }
+
+        function clearTourHighlights() {
+            document.querySelectorAll('.tour-highlight').forEach(el => {
+                el.classList.remove('tour-highlight');
+            });
+        }
+
+        async function renderTourStep() {
+            if (!isTourActive) return;
+
+            tourNextBtn.disabled = true;
+            tourPrevBtn.disabled = true;
+
+            const step = tourSteps[currentTourStep];
+            clearTourHighlights();
+
+            // Run onBefore hook if it exists (for navigation)
+            if (step.onBefore) {
+                await step.onBefore();
+            }
+
+            const targetElement = document.querySelector(step.selector);
+            if (!targetElement) {
+                console.warn(`Tour target element not found: ${step.selector}`);
+                endTour();
+                return;
+            }
+
+            // Scroll element into view smoothly if needed
+            targetElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+            // Wait a moment for scrolling to settle
+            setTimeout(() => {
+                targetElement.classList.add('tour-highlight');
+
+                tourTitle.textContent = step.title;
+                tourContent.textContent = step.content;
+                tourStepCounter.textContent = `Step ${currentTourStep + 1} of ${tourSteps.length}`;
+                tourProgressBar.style.width = `${((currentTourStep + 1) / tourSteps.length) * 100}%`;
+
+                positionTooltip(targetElement, step.placement);
+
+                tourPrevBtn.disabled = currentTourStep === 0;
+                tourNextBtn.textContent = currentTourStep === tourSteps.length - 1 ? 'Finish' : 'Next';
+                tourNextBtn.disabled = false;
+            }, 300);
+        }
+
+        function positionTooltip(target, placement) {
+            const rect = target.getBoundingClientRect();
+            const tooltipRect = tourTooltip.getBoundingClientRect();
+            const margin = 20;
+
+            let top = 0;
+            let left = 0;
+
+            // Simple center-x alignment logic
+            left = rect.left + (rect.width / 2) - (tooltipRect.width / 2);
+
+            // Prevent going off-screen horizontally
+            if (left < margin) left = margin;
+            if (left + tooltipRect.width > window.innerWidth - margin) left = window.innerWidth - tooltipRect.width - margin;
+
+            if (placement === 'bottom') {
+                top = rect.bottom + margin;
+                // If offscreen bottom, flip to top
+                if (top + tooltipRect.height > window.innerHeight - margin) {
+                    top = rect.top - tooltipRect.height - margin;
+                }
+            } else {
+                top = rect.top - tooltipRect.height - margin;
+                // If offscreen top, flip to bottom
+                if (top < margin) {
+                    top = rect.bottom + margin;
+                }
+            }
+
+            tourTooltip.style.top = `${top}px`;
+            tourTooltip.style.left = `${left}px`;
+        }
+
+        function handleTourKeydown(e) {
+            if (e.key === 'Escape') {
+                endTour();
+            } else if (e.key === 'ArrowRight' && currentTourStep < tourSteps.length - 1 && !tourNextBtn.disabled) {
+                currentTourStep++;
+                renderTourStep();
+            } else if (e.key === 'ArrowLeft' && currentTourStep > 0 && !tourPrevBtn.disabled) {
+                currentTourStep--;
+                renderTourStep();
+            }
+        }
+
+        startTourBtn.addEventListener('click', startTour);
+        tourCloseBtn.addEventListener('click', endTour);
+
+        tourNextBtn.addEventListener('click', () => {
+            if (currentTourStep < tourSteps.length - 1) {
+                currentTourStep++;
+                renderTourStep();
+            } else {
+                endTour();
+            }
+        });
+
+        tourPrevBtn.addEventListener('click', () => {
+            if (currentTourStep > 0) {
+                currentTourStep--;
+                renderTourStep();
+            }
+        });
+
+        // Reposition on resize if active
+        window.addEventListener('resize', () => {
+            if (isTourActive) {
+                const step = tourSteps[currentTourStep];
+                const targetElement = document.querySelector(step.selector);
+                if (targetElement) positionTooltip(targetElement, step.placement);
+            }
+        });
     });
 })();

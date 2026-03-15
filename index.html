@@ -31,6 +31,10 @@
                         <h1>Explore</h1>
                         <div class="search-container">
                             <input type="text" id="search-bar" placeholder="Search for a park...">
+                            <button id="start-tour-btn" class="tour-btn" aria-label="Start Guided Tour">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59" /></svg>
+                                <span>Tour</span>
+                            </button>
                         </div>
                     </header>
                     <div class="park-card-container"></div>
@@ -58,6 +62,27 @@
                 </div>
             </div>
         </main>
+
+        <div id="tour-overlay" class="hidden"></div>
+        <div id="tour-tooltip" class="hidden">
+            <div class="tour-header">
+                <span id="tour-step-counter"></span>
+                <button id="tour-close-btn" aria-label="Close Tour">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
+                </button>
+            </div>
+            <h3 id="tour-title"></h3>
+            <p id="tour-content"></p>
+            <div class="tour-footer">
+                <div class="tour-progress">
+                    <div id="tour-progress-bar"></div>
+                </div>
+                <div class="tour-controls">
+                    <button id="tour-prev-btn">Back</button>
+                    <button id="tour-next-btn">Next</button>
+                </div>
+            </div>
+        </div>
     </div>
 
 <script src="script.js"></script>
