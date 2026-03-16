@@ -169,8 +169,10 @@
         // --- Guided Tour Logic ---
         let currentTourStep = 0;
         let isTourActive = false;
+        let animationFrameId = null;
 
         const tourOverlay = document.getElementById('tour-overlay');
+        const tourSpotlight = document.getElementById('tour-spotlight');
         const tourTooltip = document.getElementById('tour-tooltip');
         const tourTitle = document.getElementById('tour-title');
         const tourContent = document.getElementById('tour-content');
@@ -228,25 +230,82 @@
             tourTooltip.classList.remove('hidden');
             renderTourStep();
 
-            // Allow closing with Escape
+            // Continuous positioning update for smooth scroll tracking
+            updateTourPositions();
+
             document.addEventListener('keydown', handleTourKeydown);
-            // Close if clicking overlay
             tourOverlay.addEventListener('click', endTour);
         }
 
         function endTour() {
             isTourActive = false;
+            if (animationFrameId) {
+                cancelAnimationFrame(animationFrameId);
+                animationFrameId = null;
+            }
             tourOverlay.classList.add('hidden');
             tourTooltip.classList.add('hidden');
-            clearTourHighlights();
+            clearTourTargetActive();
             document.removeEventListener('keydown', handleTourKeydown);
             tourOverlay.removeEventListener('click', endTour);
+
+            // Cleanup scroll listener
+            if (window.scrollHandlerAdded && window._tourScrollHandler) {
+                window.removeEventListener('scroll', window._tourScrollHandler, true);
+                window.scrollHandlerAdded = false;
+            }
         }
 
-        function clearTourHighlights() {
-            document.querySelectorAll('.tour-highlight').forEach(el => {
-                el.classList.remove('tour-highlight');
+        function clearTourTargetActive() {
+            document.querySelectorAll('.tour-target-active').forEach(el => {
+                el.classList.remove('tour-target-active');
             });
+        }
+
+        function updateTourPositions() {
+            if (!isTourActive) return;
+
+            const step = tourSteps[currentTourStep];
+            if (step) {
+                const targetElement = document.querySelector(step.selector);
+                if (targetElement) {
+                    const rect = targetElement.getBoundingClientRect();
+
+                    // Add some padding to the spotlight
+                    const padding = 10;
+
+                    tourSpotlight.style.top = `${rect.top - padding}px`;
+                    tourSpotlight.style.left = `${rect.left - padding}px`;
+                    tourSpotlight.style.width = `${rect.width + (padding * 2)}px`;
+                    tourSpotlight.style.height = `${rect.height + (padding * 2)}px`;
+
+                    // Disable transition during active scroll to prevent lag
+                    if(!window.scrollHandlerAdded) {
+                        window._tourScrollHandler = () => {
+                            tourSpotlight.style.transition = 'none';
+                            tourTooltip.style.transition = 'none';
+
+                            // Re-enable after scroll stops
+                            clearTimeout(window._tourScrollTimeout);
+                            window._tourScrollTimeout = setTimeout(() => {
+                                tourSpotlight.style.transition = 'top 0.6s var(--ease-out-quint), left 0.6s var(--ease-out-quint), width 0.6s var(--ease-out-quint), height 0.6s var(--ease-out-quint), border-radius 0.6s var(--ease-out-quint)';
+                                tourTooltip.style.transition = 'top 0.6s var(--ease-out-quint), left 0.6s var(--ease-out-quint), opacity 0.4s ease, transform 0.6s var(--ease-out-quint)';
+                            }, 50);
+                        };
+                        window.addEventListener('scroll', window._tourScrollHandler, true); // Use capture phase for all scroll events
+                        window.scrollHandlerAdded = true;
+                    }
+
+                    // Try to match the border radius of the target, fallback to a sensible default
+                    const computedStyle = window.getComputedStyle(targetElement);
+                    let br = computedStyle.borderRadius;
+                    if (br === '0px') br = '15px'; // default gentle curve if target has none
+                    tourSpotlight.style.borderRadius = br;
+
+                    positionTooltip(targetElement, step.placement);
+                }
+            }
+            animationFrameId = requestAnimationFrame(updateTourPositions);
         }
 
         async function renderTourStep() {
@@ -256,7 +315,7 @@
             tourPrevBtn.disabled = true;
 
             const step = tourSteps[currentTourStep];
-            clearTourHighlights();
+            clearTourTargetActive();
 
             // Run onBefore hook if it exists (for navigation)
             if (step.onBefore) {
@@ -273,16 +332,15 @@
             // Scroll element into view smoothly if needed
             targetElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
+            // Apply interaction class immediately
+            targetElement.classList.add('tour-target-active');
+
             // Wait a moment for scrolling to settle
             setTimeout(() => {
-                targetElement.classList.add('tour-highlight');
-
                 tourTitle.textContent = step.title;
                 tourContent.textContent = step.content;
                 tourStepCounter.textContent = `Step ${currentTourStep + 1} of ${tourSteps.length}`;
                 tourProgressBar.style.width = `${((currentTourStep + 1) / tourSteps.length) * 100}%`;
-
-                positionTooltip(targetElement, step.placement);
 
                 tourPrevBtn.disabled = currentTourStep === 0;
                 tourNextBtn.textContent = currentTourStep === tourSteps.length - 1 ? 'Finish' : 'Next';
@@ -354,13 +412,5 @@
             }
         });
 
-        // Reposition on resize if active
-        window.addEventListener('resize', () => {
-            if (isTourActive) {
-                const step = tourSteps[currentTourStep];
-                const targetElement = document.querySelector(step.selector);
-                if (targetElement) positionTooltip(targetElement, step.placement);
-            }
-        });
     });
 })();
