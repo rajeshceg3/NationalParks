@@ -342,28 +342,46 @@ body {
 #tour-overlay {
     position: fixed;
     top: 0; left: 0; width: 100%; height: 100%;
-    background: rgba(0, 0, 0, 0.4);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
     z-index: 1000;
     opacity: 1;
     transition: opacity 0.5s var(--ease-out-quint);
     pointer-events: auto;
+    overflow: hidden;
 }
 #tour-overlay.hidden { opacity: 0; pointer-events: none; }
 
-.tour-highlight {
-    position: relative !important;
-    z-index: 1001 !important;
-    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.5), 0 0 20px rgba(0, 0, 0, 0.3) !important;
+#tour-spotlight {
+    position: absolute;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.65);
+    border-radius: 10px;
+    z-index: 1002;
+    pointer-events: none;
+    transition: top 0.6s var(--ease-out-quint), left 0.6s var(--ease-out-quint), width 0.6s var(--ease-out-quint), height 0.6s var(--ease-out-quint), border-radius 0.6s var(--ease-out-quint);
+}
+
+#tour-spotlight::after {
+    content: '';
+    position: absolute;
+    top: -4px; left: -4px; right: -4px; bottom: -4px;
+    border: 2px solid rgba(255, 255, 255, 0.8);
     border-radius: inherit;
-    background: white; /* fallback for empty containers */
-    transition: box-shadow 0.3s var(--ease-out-quint);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    animation: spotlight-breathe 2s infinite ease-in-out;
+}
+
+@keyframes spotlight-breathe {
+    0%, 100% { transform: scale(1); opacity: 0.8; }
+    50% { transform: scale(1.02); opacity: 1; }
+}
+
+.tour-target-active {
+    position: relative !important;
+    z-index: 1003 !important;
 }
 
 #tour-tooltip {
     position: fixed;
-    z-index: 1002;
+    z-index: 1004;
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -374,7 +392,7 @@ body {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
     opacity: 1;
     transform: translate(0, 0) scale(1);
-    transition: top 0.6s var(--ease-out-quint), left 0.6s var(--ease-out-quint), opacity 0.4s ease, transform 0.4s var(--ease-out-quint);
+    transition: top 0.6s var(--ease-out-quint), left 0.6s var(--ease-out-quint), opacity 0.4s ease, transform 0.6s var(--ease-out-quint);
 }
 #tour-tooltip.hidden { opacity: 0; transform: translateY(20px) scale(0.95); pointer-events: none; }
 
