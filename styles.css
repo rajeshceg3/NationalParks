@@ -347,6 +347,9 @@ body {
     transition: opacity 0.5s var(--ease-out-quint);
     pointer-events: auto;
     overflow: hidden;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
 #tour-overlay.hidden { opacity: 0; pointer-events: none; }
 
@@ -413,8 +416,23 @@ body {
 #tour-close-btn svg { width: 20px; height: 20px; color: var(--charcoal); opacity: 0.5; transition: opacity 0.2s; }
 #tour-close-btn:hover svg { opacity: 1; }
 
-#tour-title { font-size: 20px; margin-bottom: 8px; font-weight: 500; }
-#tour-content { font-size: 15px; margin-bottom: 20px; line-height: 1.5; color: #555; }
+#tour-title { font-size: 20px; margin-bottom: 8px; font-weight: 500; opacity: 0; }
+#tour-content { font-size: 15px; margin-bottom: 20px; line-height: 1.5; color: #555; opacity: 0; }
+
+.tour-anim-enter {
+    animation: fadeInUp 0.5s var(--ease-out-quint) forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
 .tour-footer {
     display: flex;

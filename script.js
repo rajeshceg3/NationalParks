@@ -169,6 +169,8 @@
         // --- Guided Tour Logic ---
         let currentTourStep = 0;
         let isTourActive = false;
+        let isNavigatingStep = false;
+        let navigationTimeout = null;
         let animationFrameId = null;
 
         const tourOverlay = document.getElementById('tour-overlay');
@@ -243,17 +245,12 @@
                 cancelAnimationFrame(animationFrameId);
                 animationFrameId = null;
             }
+            clearTimeout(navigationTimeout);
             tourOverlay.classList.add('hidden');
             tourTooltip.classList.add('hidden');
             clearTourTargetActive();
             document.removeEventListener('keydown', handleTourKeydown);
             tourOverlay.removeEventListener('click', endTour);
-
-            // Cleanup scroll listener
-            if (window.scrollHandlerAdded && window._tourScrollHandler) {
-                window.removeEventListener('scroll', window._tourScrollHandler, true);
-                window.scrollHandlerAdded = false;
-            }
         }
 
         function clearTourTargetActive() {
@@ -274,27 +271,15 @@
                     // Add some padding to the spotlight
                     const padding = 10;
 
+                    if (!isNavigatingStep) {
+                        tourSpotlight.style.transition = 'none';
+                        tourTooltip.style.transition = 'none';
+                    }
+
                     tourSpotlight.style.top = `${rect.top - padding}px`;
                     tourSpotlight.style.left = `${rect.left - padding}px`;
                     tourSpotlight.style.width = `${rect.width + (padding * 2)}px`;
                     tourSpotlight.style.height = `${rect.height + (padding * 2)}px`;
-
-                    // Disable transition during active scroll to prevent lag
-                    if(!window.scrollHandlerAdded) {
-                        window._tourScrollHandler = () => {
-                            tourSpotlight.style.transition = 'none';
-                            tourTooltip.style.transition = 'none';
-
-                            // Re-enable after scroll stops
-                            clearTimeout(window._tourScrollTimeout);
-                            window._tourScrollTimeout = setTimeout(() => {
-                                tourSpotlight.style.transition = 'top 0.6s var(--ease-out-quint), left 0.6s var(--ease-out-quint), width 0.6s var(--ease-out-quint), height 0.6s var(--ease-out-quint), border-radius 0.6s var(--ease-out-quint)';
-                                tourTooltip.style.transition = 'top 0.6s var(--ease-out-quint), left 0.6s var(--ease-out-quint), opacity 0.4s ease, transform 0.6s var(--ease-out-quint)';
-                            }, 50);
-                        };
-                        window.addEventListener('scroll', window._tourScrollHandler, true); // Use capture phase for all scroll events
-                        window.scrollHandlerAdded = true;
-                    }
 
                     // Try to match the border radius of the target, fallback to a sensible default
                     const computedStyle = window.getComputedStyle(targetElement);
@@ -313,6 +298,15 @@
 
             tourNextBtn.disabled = true;
             tourPrevBtn.disabled = true;
+
+            isNavigatingStep = true;
+            clearTimeout(navigationTimeout);
+            tourSpotlight.style.transition = 'top 0.6s var(--ease-out-quint), left 0.6s var(--ease-out-quint), width 0.6s var(--ease-out-quint), height 0.6s var(--ease-out-quint), border-radius 0.6s var(--ease-out-quint)';
+            tourTooltip.style.transition = 'top 0.6s var(--ease-out-quint), left 0.6s var(--ease-out-quint), opacity 0.4s ease, transform 0.6s var(--ease-out-quint)';
+
+            navigationTimeout = setTimeout(() => {
+                isNavigatingStep = false;
+            }, 600);
 
             const step = tourSteps[currentTourStep];
             clearTourTargetActive();
@@ -335,12 +329,19 @@
             // Apply interaction class immediately
             targetElement.classList.add('tour-target-active');
 
+            tourTitle.classList.remove('tour-anim-enter');
+            tourContent.classList.remove('tour-anim-enter');
+            void tourTitle.offsetWidth; // force reflow
+
             // Wait a moment for scrolling to settle
             setTimeout(() => {
                 tourTitle.textContent = step.title;
                 tourContent.textContent = step.content;
                 tourStepCounter.textContent = `Step ${currentTourStep + 1} of ${tourSteps.length}`;
                 tourProgressBar.style.width = `${((currentTourStep + 1) / tourSteps.length) * 100}%`;
+
+                tourTitle.classList.add('tour-anim-enter');
+                setTimeout(() => tourContent.classList.add('tour-anim-enter'), 100);
 
                 tourPrevBtn.disabled = currentTourStep === 0;
                 tourNextBtn.textContent = currentTourStep === tourSteps.length - 1 ? 'Finish' : 'Next';
