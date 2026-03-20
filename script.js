@@ -223,6 +223,23 @@
             }
         ];
 
+        // Global click interceptor to isolate interactions
+        function handleTourClickIntercept(e) {
+            if (!isTourActive) return;
+
+            // Allow clicks within the tooltip itself
+            if (tourTooltip.contains(e.target)) return;
+
+            // Allow clicks on the currently highlighted active target
+            const activeTarget = document.querySelector('.tour-target-active');
+            if (activeTarget && activeTarget.contains(e.target)) return;
+
+            // Otherwise, block the click and end the tour
+            e.stopPropagation();
+            e.preventDefault();
+            endTour();
+        }
+
         function startTour() {
             isTourActive = true;
             currentTourStep = 0;
@@ -234,7 +251,7 @@
             updateTourPositions();
 
             document.addEventListener('keydown', handleTourKeydown);
-            tourOverlay.addEventListener('click', endTour);
+            document.addEventListener('click', handleTourClickIntercept, true); // Use capture phase
         }
 
         function endTour() {
@@ -258,7 +275,7 @@
             tourTooltip.classList.add('hidden');
             clearTourTargetActive();
             document.removeEventListener('keydown', handleTourKeydown);
-            tourOverlay.removeEventListener('click', endTour);
+            document.removeEventListener('click', handleTourClickIntercept, true);
         }
 
         function clearTourTargetActive() {
@@ -309,6 +326,7 @@
 
             isNavigatingStep = true;
             clearTimeout(navigationTimeout);
+            // Updated to be simpler or match the requested tracking smoothly
             tourSpotlight.style.transition = 'top 0.6s var(--ease-out-quint), left 0.6s var(--ease-out-quint), width 0.6s var(--ease-out-quint), height 0.6s var(--ease-out-quint), border-radius 0.6s var(--ease-out-quint)';
             tourTooltip.style.transition = 'top 0.6s var(--ease-out-quint), left 0.6s var(--ease-out-quint), opacity 0.4s ease, transform 0.6s var(--ease-out-quint)';
 
