@@ -366,15 +366,32 @@ body {
     content: '';
     position: absolute;
     top: -4px; left: -4px; right: -4px; bottom: -4px;
-    border: 2px solid rgba(255, 255, 255, 0.8);
+    border: 2px solid var(--powder-blue);
     border-radius: inherit;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 25px rgba(184, 216, 224, 0.6), inset 0 0 15px rgba(184, 216, 224, 0.3);
     animation: spotlight-breathe 2s infinite ease-in-out;
 }
 
 @keyframes spotlight-breathe {
     0%, 100% { transform: scale(1); opacity: 0.8; }
-    50% { transform: scale(1.02); opacity: 1; }
+    50% { transform: scale(1.03); opacity: 1; box-shadow: 0 0 35px rgba(184, 216, 224, 0.8), inset 0 0 20px rgba(184, 216, 224, 0.5); }
+}
+
+.tour-hint {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--sage-green);
+    margin-top: 15px;
+    display: inline-block;
+    padding: 6px 12px;
+    background: rgba(168, 189, 162, 0.15);
+    border-radius: 12px;
+    animation: pulse-hint 2s infinite ease-in-out;
+}
+
+@keyframes pulse-hint {
+    0%, 100% { opacity: 0.7; transform: scale(1); }
+    50% { opacity: 1; transform: scale(1.05); }
 }
 
 .tour-target-active {

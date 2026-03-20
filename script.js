@@ -197,12 +197,7 @@
                 title: 'Discover Places',
                 content: 'Explore curated vistas. Click on any card to immerse yourself in the details.',
                 placement: 'top',
-                onBefore: () => {
-                    if (parkDetailScreen.classList.contains('visible')) {
-                        closeParkDetail();
-                        return new Promise(resolve => setTimeout(resolve, 600)); // Wait for close animation
-                    }
-                }
+                requireInteraction: true
             },
             {
                 selector: '#park-essence-section',
@@ -210,18 +205,21 @@
                 content: 'Read about what makes this place truly special and connect with its history.',
                 placement: 'top',
                 onBefore: () => {
-                    const firstParkCard = document.querySelector('.park-card');
-                    if (firstParkCard && !parkDetailScreen.classList.contains('visible')) {
-                        firstParkCard.click();
-                        return new Promise(resolve => setTimeout(resolve, 600)); // Wait for open animation
-                    }
+                    return new Promise(resolve => setTimeout(resolve, 800)); // Wait for open animation from user click
                 }
+            },
+            {
+                selector: '#park-gallery-section',
+                title: 'Immersive Gallery',
+                content: 'Browse through breathtaking captures of the environment.',
+                placement: 'top'
             },
             {
                 selector: '.close-button',
                 title: 'Return to Explore',
                 content: 'Whenever you are ready, close the details view to return to the main gallery.',
-                placement: 'bottom'
+                placement: 'bottom',
+                requireInteraction: true
             }
         ];
 
@@ -246,6 +244,16 @@
                 animationFrameId = null;
             }
             clearTimeout(navigationTimeout);
+
+            if (window._tourInteractionListener) {
+                const oldTarget = window._tourInteractionTarget;
+                if (oldTarget) {
+                    oldTarget.removeEventListener('click', window._tourInteractionListener);
+                }
+                window._tourInteractionListener = null;
+                window._tourInteractionTarget = null;
+            }
+
             tourOverlay.classList.add('hidden');
             tourTooltip.classList.add('hidden');
             clearTourTargetActive();
@@ -333,10 +341,58 @@
             tourContent.classList.remove('tour-anim-enter');
             void tourTitle.offsetWidth; // force reflow
 
+            // Clean up any old hints and listeners
+            const oldHint = document.querySelector('.tour-hint');
+            if (oldHint) oldHint.remove();
+
+            if (window._tourInteractionListener) {
+                const oldTarget = window._tourInteractionTarget;
+                if (oldTarget) {
+                    oldTarget.removeEventListener('click', window._tourInteractionListener);
+                }
+                window._tourInteractionListener = null;
+                window._tourInteractionTarget = null;
+            }
+
             // Wait a moment for scrolling to settle
             setTimeout(() => {
                 tourTitle.textContent = step.title;
                 tourContent.textContent = step.content;
+
+                if (step.requireInteraction) {
+                    tourNextBtn.style.display = 'none';
+
+                    const hintDiv = document.createElement('div');
+                    hintDiv.className = 'tour-hint';
+                    hintDiv.textContent = 'Click highlighted area to continue';
+                    tourContent.appendChild(hintDiv);
+
+                    window._tourInteractionListener = (e) => {
+                        // For generic containers (like .park-card container), only advance if a specific child like a card is clicked
+                        if (step.selector === '.park-card') {
+                            // Because .park-card itself is the selector here, we are listening to the first .park-card
+                            // but if it was a container, we'd check e.target.closest('.park-card')
+                        }
+
+                        targetElement.removeEventListener('click', window._tourInteractionListener);
+                        window._tourInteractionListener = null;
+                        window._tourInteractionTarget = null;
+
+                        // Proceed logic based on whether it is finish or next
+                        if (currentTourStep < tourSteps.length - 1) {
+                            currentTourStep++;
+                            renderTourStep();
+                        } else {
+                            endTour();
+                        }
+                    };
+                    window._tourInteractionTarget = targetElement;
+                    targetElement.addEventListener('click', window._tourInteractionListener);
+
+                } else {
+                    tourNextBtn.style.display = '';
+                }
+
                 tourStepCounter.textContent = `Step ${currentTourStep + 1} of ${tourSteps.length}`;
                 tourProgressBar.style.width = `${((currentTourStep + 1) / tourSteps.length) * 100}%`;
 
@@ -345,7 +401,7 @@
 
                 tourPrevBtn.disabled = currentTourStep === 0;
                 tourNextBtn.textContent = currentTourStep === tourSteps.length - 1 ? 'Finish' : 'Next';
-                tourNextBtn.disabled = false;
+                tourNextBtn.disabled = step.requireInteraction; // Still disable to prevent keyboard traversal if hidden
             }, 300);
         }
 
