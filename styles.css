@@ -345,17 +345,14 @@ body {
     z-index: 1000;
     opacity: 1;
     transition: opacity 0.5s var(--ease-out-quint);
-    pointer-events: auto;
+    pointer-events: none;
     overflow: hidden;
-    background: rgba(0, 0, 0, 0.4);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
 }
 #tour-overlay.hidden { opacity: 0; pointer-events: none; }
 
 #tour-spotlight {
     position: absolute;
-    box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.65);
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.75);
     border-radius: 10px;
     z-index: 1002;
     pointer-events: none;
