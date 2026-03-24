@@ -294,6 +294,11 @@ button { background: none; border: none; font: inherit; color: inherit; cursor: 
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+.gallery-container img.active {
+    outline: 2px solid var(--sage-green);
+    outline-offset: 2px;
+}
+
 #cursor {
     position: fixed;
     width: 10px;
