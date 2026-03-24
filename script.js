@@ -145,11 +145,19 @@
 
             const galleryContainer = document.getElementById('park-gallery-container');
             galleryContainer.innerHTML = '';
-            data.gallery.forEach(imageUrl => {
+            data.gallery.forEach((imageUrl, index) => {
                 const img = document.createElement('img');
                 img.src = imageUrl;
                 img.alt = `${data.name} gallery image`;
                 img.onerror = () => { img.style.display = 'none'; };
+                img.addEventListener('click', () => {
+                    parkHeroImage.src = imageUrl;
+
+                    const activeThumbnail = galleryContainer.querySelector('.active');
+                    if (activeThumbnail) activeThumbnail.classList.remove('active');
+                    img.classList.add('active');
+                });
+                if (index === 0) img.classList.add('active');
                 galleryContainer.appendChild(img);
             });
 
