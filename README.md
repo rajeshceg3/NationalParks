@@ -10,7 +10,7 @@ Serve this directory with `python3 -m http.server 8799` and open localhost:8799.
 
 `npm ci && npm test` uses local Chromium (`CHROME_PATH`, default `/usr/bin/google-chrome`). It traverses all 63 detail panels in both themes at 320, 390 and 1440 CSS pixels, with normal and reduced motion. It tests real clicks, keyboard close/focus return, detail scroll reset, search/no-results/reset, and the entire five-step tour. Test images are deterministic stubs so the repeatable test does not scrape Wikimedia. Current screenshots are ignored by git and uploaded as CI artifacts.
 
-`node verification/capture-glyphs.cjs && python3 verification/measure-glyphs.py` measures actual solid glyph-core pixels against same-scene backdrop pixels (Python requires Pillow and NumPy). The checked result contains 78 samples, minimum 5.482:1. Controls and labels are at least 14px; body text is 16px. Photos have opaque captions rather than text over variable imagery.
+`node verification/capture-glyphs.cjs && python3 verification/measure-glyphs.py` measures actual solid glyph-core pixels against same-scene backdrop pixels (Python requires Pillow and NumPy). The checked result contains 72 samples, minimum 5.482:1. Controls and labels are at least 14px; body text is 16px. Photos have opaque captions rather than text over variable imagery.
 
 ## Sources and limits
 

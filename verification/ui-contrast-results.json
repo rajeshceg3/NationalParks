@@ -42,14 +42,6 @@
  {
   "w": 1440,
   "ch": "dark-0",
-  "selector": ".vista-header>p",
-  "corePixels": 1685,
-  "worstContrast": 9.512,
-  "pass": true
- },
- {
-  "w": 1440,
-  "ch": "dark-0",
   "selector": "#result-count",
   "corePixels": 997,
   "worstContrast": 12.011,
@@ -141,14 +133,6 @@
   "selector": ".vista-header h1",
   "corePixels": 24790,
   "worstContrast": 9.825,
-  "pass": true
- },
- {
-  "w": 1440,
-  "ch": "light-0",
-  "selector": ".vista-header>p",
-  "corePixels": 1632,
-  "worstContrast": 5.482,
   "pass": true
  },
  {
@@ -250,14 +234,6 @@
  {
   "w": 320,
   "ch": "dark-0",
-  "selector": ".vista-header>p",
-  "corePixels": 1685,
-  "worstContrast": 9.512,
-  "pass": true
- },
- {
-  "w": 320,
-  "ch": "dark-0",
   "selector": "#result-count",
   "corePixels": 997,
   "worstContrast": 12.011,
@@ -349,14 +325,6 @@
   "selector": ".vista-header h1",
   "corePixels": 7177,
   "worstContrast": 9.825,
-  "pass": true
- },
- {
-  "w": 320,
-  "ch": "light-0",
-  "selector": ".vista-header>p",
-  "corePixels": 1632,
-  "worstContrast": 5.482,
   "pass": true
  },
  {
@@ -458,14 +426,6 @@
  {
   "w": 390,
   "ch": "dark-0",
-  "selector": ".vista-header>p",
-  "corePixels": 1685,
-  "worstContrast": 9.512,
-  "pass": true
- },
- {
-  "w": 390,
-  "ch": "dark-0",
   "selector": "#result-count",
   "corePixels": 997,
   "worstContrast": 12.011,
@@ -557,14 +517,6 @@
   "selector": ".vista-header h1",
   "corePixels": 7177,
   "worstContrast": 9.825,
-  "pass": true
- },
- {
-  "w": 390,
-  "ch": "light-0",
-  "selector": ".vista-header>p",
-  "corePixels": 1632,
-  "worstContrast": 5.482,
   "pass": true
  },
  {
