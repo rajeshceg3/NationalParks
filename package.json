@@ -1,0 +1,11 @@
+{
+  "name": "terra-nationalparks",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node --check script.js && node verification/check.cjs && node verification/tour.cjs"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.17.0"
+  }
+}

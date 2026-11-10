@@ -1,0 +1,362 @@
+[
+  {
+    "w": 390,
+    "h": 844,
+    "ch": "dark-0",
+    "prefix": "verification/contrast/390-dark-0",
+    "els": [
+      {
+        "sel": "#theme-toggle",
+        "i": 0,
+        "rect": {
+          "x": 16,
+          "y": 146.78125,
+          "width": 130.703125,
+          "height": 47.59375
+        },
+        "ink": "rgb(247, 241, 223)",
+        "opacity": "1",
+        "font": "16px"
+      },
+      {
+        "sel": "#reset-guide",
+        "i": 1,
+        "rect": {
+          "x": 156.703125,
+          "y": 146.78125,
+          "width": 128.53125,
+          "height": 47.59375
+        },
+        "ink": "rgb(247, 241, 223)",
+        "opacity": "1",
+        "font": "16px"
+      },
+      {
+        "sel": "#start-tour-btn",
+        "i": 2,
+        "rect": {
+          "x": 16,
+          "y": 277.96875,
+          "width": 358,
+          "height": 46
+        },
+        "ink": "rgb(247, 241, 223)",
+        "opacity": "1",
+        "font": "14px"
+      },
+      {
+        "sel": "#search-bar",
+        "i": 3,
+        "rect": {
+          "x": 16,
+          "y": 210.375,
+          "width": 358,
+          "height": 55.59375
+        },
+        "ink": "rgb(247, 241, 223)",
+        "opacity": "1",
+        "font": "16px"
+      },
+      {
+        "sel": ".vista-header h1",
+        "i": 4,
+        "rect": {
+          "x": 16,
+          "y": 40,
+          "width": 358,
+          "height": 82.78125
+        },
+        "ink": "rgb(247, 241, 223)",
+        "opacity": "1",
+        "font": "36px"
+      },
+      {
+        "sel": "#result-count",
+        "i": 5,
+        "rect": {
+          "x": 16,
+          "y": 353.96875,
+          "width": 358,
+          "height": 27.1875
+        },
+        "ink": "rgb(247, 241, 223)",
+        "opacity": "1",
+        "font": "16px"
+      },
+      {
+        "sel": ".park-card:first-child h3",
+        "i": 6,
+        "rect": {
+          "x": 37,
+          "y": 732.15625,
+          "width": 316,
+          "height": 29.890625
+        },
+        "ink": "rgb(247, 241, 223)",
+        "opacity": "1",
+        "font": "26px"
+      },
+      {
+        "sel": ".park-card:first-child p",
+        "i": 7,
+        "rect": {
+          "x": 37,
+          "y": 769.046875,
+          "width": 316,
+          "height": 23.796875
+        },
+        "ink": "rgb(206, 219, 208)",
+        "opacity": "1",
+        "font": "14px"
+      }
+    ]
+  },
+  {
+    "w": 390,
+    "h": 844,
+    "ch": "dark-1",
+    "prefix": "verification/contrast/390-dark-1",
+    "els": [
+      {
+        "sel": "#park-hero-name",
+        "i": 0,
+        "rect": {
+          "x": 20,
+          "y": 353.15625,
+          "width": 350,
+          "height": 39.09375
+        },
+        "ink": "rgb(247, 241, 223)",
+        "opacity": "1",
+        "font": "34px"
+      },
+      {
+        "sel": "#park-hero-location",
+        "i": 1,
+        "rect": {
+          "x": 20,
+          "y": 404.25,
+          "width": 350,
+          "height": 27.1875
+        },
+        "ink": "rgb(206, 219, 208)",
+        "opacity": "1",
+        "font": "16px"
+      }
+    ]
+  },
+  {
+    "w": 390,
+    "h": 844,
+    "ch": "dark-2",
+    "prefix": "verification/contrast/390-dark-2",
+    "els": [
+      {
+        "sel": "#park-essence-text",
+        "i": 0,
+        "rect": {
+          "x": 20,
+          "y": 86.484375,
+          "width": 350,
+          "height": 190.3125
+        },
+        "ink": "rgb(247, 241, 223)",
+        "opacity": "1",
+        "font": "16px"
+      },
+      {
+        "sel": ".source-note",
+        "i": 1,
+        "rect": {
+          "x": 20,
+          "y": 292.796875,
+          "width": 350,
+          "height": 137.984375
+        },
+        "ink": "rgb(206, 219, 208)",
+        "opacity": "1",
+        "font": "14px"
+      }
+    ]
+  },
+  {
+    "w": 390,
+    "h": 844,
+    "ch": "light-0",
+    "prefix": "verification/contrast/390-light-0",
+    "els": [
+      {
+        "sel": "#theme-toggle",
+        "i": 0,
+        "rect": {
+          "x": 16,
+          "y": 146.78125,
+          "width": 128.75,
+          "height": 47.59375
+        },
+        "ink": "rgb(32, 58, 57)",
+        "opacity": "1",
+        "font": "16px"
+      },
+      {
+        "sel": "#reset-guide",
+        "i": 1,
+        "rect": {
+          "x": 154.75,
+          "y": 146.78125,
+          "width": 128.53125,
+          "height": 47.59375
+        },
+        "ink": "rgb(32, 58, 57)",
+        "opacity": "1",
+        "font": "16px"
+      },
+      {
+        "sel": "#start-tour-btn",
+        "i": 2,
+        "rect": {
+          "x": 16,
+          "y": 277.96875,
+          "width": 358,
+          "height": 46
+        },
+        "ink": "rgb(32, 58, 57)",
+        "opacity": "1",
+        "font": "14px"
+      },
+      {
+        "sel": "#search-bar",
+        "i": 3,
+        "rect": {
+          "x": 16,
+          "y": 210.375,
+          "width": 358,
+          "height": 55.59375
+        },
+        "ink": "rgb(32, 58, 57)",
+        "opacity": "1",
+        "font": "16px"
+      },
+      {
+        "sel": ".vista-header h1",
+        "i": 4,
+        "rect": {
+          "x": 16,
+          "y": 40,
+          "width": 358,
+          "height": 82.78125
+        },
+        "ink": "rgb(32, 58, 57)",
+        "opacity": "1",
+        "font": "36px"
+      },
+      {
+        "sel": "#result-count",
+        "i": 5,
+        "rect": {
+          "x": 16,
+          "y": 353.96875,
+          "width": 358,
+          "height": 27.1875
+        },
+        "ink": "rgb(32, 58, 57)",
+        "opacity": "1",
+        "font": "16px"
+      },
+      {
+        "sel": ".park-card:first-child h3",
+        "i": 6,
+        "rect": {
+          "x": 37,
+          "y": 732.15625,
+          "width": 316,
+          "height": 29.890625
+        },
+        "ink": "rgb(32, 58, 57)",
+        "opacity": "1",
+        "font": "26px"
+      },
+      {
+        "sel": ".park-card:first-child p",
+        "i": 7,
+        "rect": {
+          "x": 37,
+          "y": 769.046875,
+          "width": 316,
+          "height": 23.796875
+        },
+        "ink": "rgb(74, 98, 91)",
+        "opacity": "1",
+        "font": "14px"
+      }
+    ]
+  },
+  {
+    "w": 390,
+    "h": 844,
+    "ch": "light-1",
+    "prefix": "verification/contrast/390-light-1",
+    "els": [
+      {
+        "sel": "#park-hero-name",
+        "i": 0,
+        "rect": {
+          "x": 20,
+          "y": 353.15625,
+          "width": 350,
+          "height": 39.09375
+        },
+        "ink": "rgb(32, 58, 57)",
+        "opacity": "1",
+        "font": "34px"
+      },
+      {
+        "sel": "#park-hero-location",
+        "i": 1,
+        "rect": {
+          "x": 20,
+          "y": 404.25,
+          "width": 350,
+          "height": 27.1875
+        },
+        "ink": "rgb(74, 98, 91)",
+        "opacity": "1",
+        "font": "16px"
+      }
+    ]
+  },
+  {
+    "w": 390,
+    "h": 844,
+    "ch": "light-2",
+    "prefix": "verification/contrast/390-light-2",
+    "els": [
+      {
+        "sel": "#park-essence-text",
+        "i": 0,
+        "rect": {
+          "x": 20,
+          "y": 86.484375,
+          "width": 350,
+          "height": 190.3125
+        },
+        "ink": "rgb(32, 58, 57)",
+        "opacity": "1",
+        "font": "16px"
+      },
+      {
+        "sel": ".source-note",
+        "i": 1,
+        "rect": {
+          "x": 20,
+          "y": 292.796875,
+          "width": 350,
+          "height": 137.984375
+        },
+        "ink": "rgb(74, 98, 91)",
+        "opacity": "1",
+        "font": "14px"
+      }
+    ]
+  }
+]

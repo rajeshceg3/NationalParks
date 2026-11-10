@@ -11,10 +11,20 @@
         const heroParallaxContainer = document.querySelector('.park-hero');
 
         const PLACEHOLDER_IMG = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxIDEiPjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiMzMzMiLz48L3N2Zz4=";
-        parkHeroImage.onerror = () => { parkHeroImage.src = PLACEHOLDER_IMG; };
+        parkHeroImage.onerror = () => { parkHeroImage.onerror=null;parkHeroImage.src=PLACEHOLDER_IMG;document.getElementById('image-status').hidden=false; };
 
         let lastScrollPosition = 0;
         let allParks = [];
+        let lastCard = null;
+        let closeTimer = null;
+        const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+        const themeToggle = document.getElementById('theme-toggle');
+        const savedTheme = localStorage.getItem('terra-theme') || 'light';
+        function setTheme(theme) { document.documentElement.dataset.theme=theme; themeToggle.textContent=theme==='dark'?'Light theme':'Dark theme'; themeToggle.setAttribute('aria-pressed',String(theme==='dark')); localStorage.setItem('terra-theme',theme); }
+        setTheme(savedTheme);
+        themeToggle.addEventListener('click',()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark'));
+        document.getElementById('reset-guide').addEventListener('click',()=>{endTour();closeParkDetail();searchBar.value='';renderParkCards(allParks);homeScreen.scrollTop=0;searchBar.focus();});
+        mainApp.classList.remove('hidden');
 
         fetch('parks.json')
             .then(response => response.json())
@@ -25,10 +35,10 @@
                     return acc;
                 }, {});
                 renderParkCards(allParks);
-            });
+            }).catch(()=>{document.getElementById('result-count').textContent='The park catalog could not load. Please reload to try again.';});
 
         const searchBar = document.getElementById('search-bar');
-        searchBar.addEventListener('keyup', (e) => {
+        searchBar.addEventListener('input', (e) => {
             const searchString = e.target.value.toLowerCase();
             const filteredParks = allParks.filter(park => {
                 return park.name.toLowerCase().includes(searchString) || park.location.toLowerCase().includes(searchString);
@@ -39,8 +49,11 @@
         function renderParkCards(parks) {
             const parkCardContainer = document.querySelector('.park-card-container');
             parkCardContainer.innerHTML = '';
+            document.getElementById('result-count').textContent=`${parks.length} of ${allParks.length} parks`;
+            if(!parks.length){parkCardContainer.innerHTML='<p class="no-results">No parks match this search. Try another park or state.</p>';}
             parks.forEach(park => {
-                const parkCard = document.createElement('div');
+                const parkCard = document.createElement('button');
+                parkCard.type='button';
                 parkCard.className = 'park-card anim-hidden';
                 parkCard.dataset.parkId = park.name.toLowerCase().replace(/ /g, '');
                 parkCard.innerHTML = `
@@ -54,18 +67,19 @@
             parkCards.forEach(card => {
                 card.addEventListener('click', () => {
                     const parkId = card.dataset.parkId;
+                    clearTimeout(closeTimer);
+                    lastCard=card;
                     renderParkDetail(parkId);
-
+                    parkDetailScreen.scrollTop=0;
+                    homeScreen.inert=true;
                     lastScrollPosition = homeScreen.scrollTop;
                     homeScreen.classList.add('locked');
-                    homeScreen.style.top = `-${lastScrollPosition}px`;
+                    // The inert background keeps its own scroll position.
 
                     parkDetailScreen.classList.remove('hidden');
-                    setTimeout(() => {
-                        parkDetailScreen.classList.add('visible');
-                        parkDetailCloseButton.focus();
-                        document.addEventListener('keydown', handleFocusTrap);
-                    }, 50);
+                    parkDetailScreen.classList.add('visible');
+                    parkDetailCloseButton.focus();
+                    document.addEventListener('keydown', handleFocusTrap);
                 });
             });
 
@@ -103,21 +117,22 @@
         parkDetailCloseButton.addEventListener('click', closeParkDetail);
 
         function closeParkDetail() {
+            clearTimeout(closeTimer);
             parkDetailScreen.classList.remove('visible');
-            document.removeEventListener('keydown', handleFocusTrap);
-
-            setTimeout(() => {
-                parkDetailScreen.classList.add('hidden');
-                homeScreen.classList.remove('locked');
-                homeScreen.style.top = '';
-                homeScreen.scrollTop = lastScrollPosition;
-            }, 500);
+            parkDetailScreen.classList.add('hidden');
+            document.removeEventListener('keydown',handleFocusTrap);
+            homeScreen.inert=false;
+            homeScreen.classList.remove('locked');
+            homeScreen.style.top='';
+            homeScreen.scrollTop=lastScrollPosition;
+            lastCard?.focus({preventScroll:true});
         }
 
         function handleFocusTrap(e) {
+            if(e.key==='Escape'){closeParkDetail();return;}
             if (e.key !== 'Tab') return;
 
-            const focusableElements = parkDetailScreen.querySelectorAll('button');
+            const focusableElements = parkDetailScreen.querySelectorAll('button:not([hidden]),a[href]');
             const firstElement = focusableElements[0];
             const lastElement = focusableElements[focusableElements.length - 1];
 
@@ -138,28 +153,24 @@
             const data = parksData[parkId];
             if (!data) return;
 
+            document.getElementById('image-status').hidden=true;
+            parkHeroImage.onerror=()=>{parkHeroImage.onerror=null;parkHeroImage.src=PLACEHOLDER_IMG;document.getElementById('image-status').hidden=false;};
             parkHeroImage.src = data.heroImage;
+            parkHeroImage.alt = data.name;
             document.getElementById('park-hero-name').textContent = data.name;
             document.getElementById('park-hero-location').textContent = data.location;
             document.getElementById('park-essence-text').textContent = data.essence;
 
             const galleryContainer = document.getElementById('park-gallery-container');
             galleryContainer.innerHTML = '';
-            data.gallery.forEach((imageUrl, index) => {
-                const img = document.createElement('img');
-                img.src = imageUrl;
-                img.alt = `${data.name} gallery image`;
-                img.onerror = () => { img.style.display = 'none'; };
-                img.addEventListener('click', () => {
-                    parkHeroImage.src = imageUrl;
-
-                    const activeThumbnail = galleryContainer.querySelector('.active');
-                    if (activeThumbnail) activeThumbnail.classList.remove('active');
-                    img.classList.add('active');
-                });
-                if (index === 0) img.classList.add('active');
-                galleryContainer.appendChild(img);
+            data.gallery.forEach((imageUrl,index)=>{
+                const button=document.createElement('button');button.type='button';button.className='gallery-button';button.setAttribute('aria-label',`View ${data.name} photo ${index+1}`);
+                const img=document.createElement('img');img.src=imageUrl;img.alt=`${data.name}, photo ${index+1}`;img.loading='lazy';
+                img.onerror=()=>{button.hidden=true;};button.appendChild(img);
+                button.addEventListener('click',()=>{parkHeroImage.src=imageUrl;galleryContainer.querySelectorAll('.active').forEach(x=>x.classList.remove('active'));button.classList.add('active');});
+                galleryContainer.appendChild(button);
             });
+            const source=document.createElement('a');source.href=data.heroImage;source.textContent='Open original photo';source.target='_blank';source.rel='noopener';galleryContainer.appendChild(source);
 
             const currentHour = new Date().getHours();
             if (currentHour >= 19 && currentHour <= 20) {
@@ -170,8 +181,7 @@
         }
 
         parkDetailScreen.addEventListener('scroll', () => {
-            const scrollTop = parkDetailScreen.scrollTop;
-            parkHeroImage.style.transform = `translateZ(-1px) scale(2.1) translateY(${scrollTop * 0.3}px)`;
+            // Keep the complete photo visible, without parallax crop.
         });
 
         // --- Guided Tour Logic ---
@@ -350,6 +360,7 @@
                 await step.onBefore();
             }
 
+            if(!isTourActive)return;
             const targetElement = document.querySelector(step.selector);
             if (!targetElement) {
                 console.warn(`Tour target element not found: ${step.selector}`);
@@ -358,7 +369,7 @@
             }
 
             // Scroll element into view smoothly if needed
-            targetElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            targetElement.scrollIntoView({ behavior: reducedMotion?'instant':'smooth', block: 'center' });
 
             // Apply interaction class immediately
             targetElement.classList.add('tour-target-active');
@@ -382,6 +393,7 @@
 
             // Wait a moment for scrolling to settle
             setTimeout(() => {
+                if(!isTourActive)return;
                 tourTitle.textContent = step.title;
                 tourContent.textContent = step.content;
 
@@ -460,6 +472,8 @@
                 }
             }
 
+            top=Math.max(16,Math.min(top,innerHeight-tooltipRect.height-16));
+            left=Math.max(16,Math.min(left,innerWidth-tooltipRect.width-16));
             tourTooltip.style.top = `${top}px`;
             tourTooltip.style.left = `${left}px`;
         }
