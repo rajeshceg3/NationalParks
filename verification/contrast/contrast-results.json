@@ -1,0 +1,626 @@
+[
+ {
+  "w": 1440,
+  "ch": "dark-0",
+  "selector": "#theme-toggle",
+  "corePixels": 840,
+  "worstContrast": 9.814,
+  "pass": true
+ },
+ {
+  "w": 1440,
+  "ch": "dark-0",
+  "selector": "#reset-guide",
+  "corePixels": 882,
+  "worstContrast": 9.814,
+  "pass": true
+ },
+ {
+  "w": 1440,
+  "ch": "dark-0",
+  "selector": "#start-tour-btn",
+  "corePixels": 384,
+  "worstContrast": 9.814,
+  "pass": true
+ },
+ {
+  "w": 1440,
+  "ch": "dark-0",
+  "selector": "#search-bar",
+  "corePixels": 1470,
+  "worstContrast": 9.814,
+  "pass": true
+ },
+ {
+  "w": 1440,
+  "ch": "dark-0",
+  "selector": ".vista-header h1",
+  "corePixels": 24932,
+  "worstContrast": 12.011,
+  "pass": true
+ },
+ {
+  "w": 1440,
+  "ch": "dark-0",
+  "selector": ".vista-header>p",
+  "corePixels": 1685,
+  "worstContrast": 9.512,
+  "pass": true
+ },
+ {
+  "w": 1440,
+  "ch": "dark-0",
+  "selector": "#result-count",
+  "corePixels": 997,
+  "worstContrast": 12.011,
+  "pass": true
+ },
+ {
+  "w": 1440,
+  "ch": "dark-0",
+  "selector": ".park-card:first-child h3",
+  "corePixels": 1060,
+  "worstContrast": 9.814,
+  "pass": true
+ },
+ {
+  "w": 1440,
+  "ch": "dark-0",
+  "selector": ".park-card:first-child p",
+  "corePixels": 361,
+  "worstContrast": 7.701,
+  "pass": true
+ },
+ {
+  "w": 1440,
+  "ch": "dark-1",
+  "selector": "#park-hero-name",
+  "corePixels": 5954,
+  "worstContrast": 9.814,
+  "pass": true
+ },
+ {
+  "w": 1440,
+  "ch": "dark-1",
+  "selector": "#park-hero-location",
+  "corePixels": 468,
+  "worstContrast": 7.701,
+  "pass": true
+ },
+ {
+  "w": 1440,
+  "ch": "dark-2",
+  "selector": "#park-essence-text",
+  "corePixels": 17178,
+  "worstContrast": 12.011,
+  "pass": true
+ },
+ {
+  "w": 1440,
+  "ch": "dark-2",
+  "selector": ".source-note",
+  "corePixels": 8951,
+  "worstContrast": 9.512,
+  "pass": true
+ },
+ {
+  "w": 1440,
+  "ch": "light-0",
+  "selector": "#theme-toggle",
+  "corePixels": 811,
+  "worstContrast": 10.909,
+  "pass": true
+ },
+ {
+  "w": 1440,
+  "ch": "light-0",
+  "selector": "#reset-guide",
+  "corePixels": 865,
+  "worstContrast": 10.909,
+  "pass": true
+ },
+ {
+  "w": 1440,
+  "ch": "light-0",
+  "selector": "#start-tour-btn",
+  "corePixels": 351,
+  "worstContrast": 10.744,
+  "pass": true
+ },
+ {
+  "w": 1440,
+  "ch": "light-0",
+  "selector": "#search-bar",
+  "corePixels": 1435,
+  "worstContrast": 10.909,
+  "pass": true
+ },
+ {
+  "w": 1440,
+  "ch": "light-0",
+  "selector": ".vista-header h1",
+  "corePixels": 24790,
+  "worstContrast": 9.825,
+  "pass": true
+ },
+ {
+  "w": 1440,
+  "ch": "light-0",
+  "selector": ".vista-header>p",
+  "corePixels": 1632,
+  "worstContrast": 5.482,
+  "pass": true
+ },
+ {
+  "w": 1440,
+  "ch": "light-0",
+  "selector": "#result-count",
+  "corePixels": 962,
+  "worstContrast": 9.825,
+  "pass": true
+ },
+ {
+  "w": 1440,
+  "ch": "light-0",
+  "selector": ".park-card:first-child h3",
+  "corePixels": 1050,
+  "worstContrast": 10.909,
+  "pass": true
+ },
+ {
+  "w": 1440,
+  "ch": "light-0",
+  "selector": ".park-card:first-child p",
+  "corePixels": 352,
+  "worstContrast": 6.087,
+  "pass": true
+ },
+ {
+  "w": 1440,
+  "ch": "light-1",
+  "selector": "#park-hero-name",
+  "corePixels": 5921,
+  "worstContrast": 10.909,
+  "pass": true
+ },
+ {
+  "w": 1440,
+  "ch": "light-1",
+  "selector": "#park-hero-location",
+  "corePixels": 463,
+  "worstContrast": 6.087,
+  "pass": true
+ },
+ {
+  "w": 1440,
+  "ch": "light-2",
+  "selector": "#park-essence-text",
+  "corePixels": 16630,
+  "worstContrast": 9.825,
+  "pass": true
+ },
+ {
+  "w": 1440,
+  "ch": "light-2",
+  "selector": ".source-note",
+  "corePixels": 8443,
+  "worstContrast": 5.482,
+  "pass": true
+ },
+ {
+  "w": 320,
+  "ch": "dark-0",
+  "selector": "#theme-toggle",
+  "corePixels": 840,
+  "worstContrast": 9.814,
+  "pass": true
+ },
+ {
+  "w": 320,
+  "ch": "dark-0",
+  "selector": "#reset-guide",
+  "corePixels": 882,
+  "worstContrast": 9.814,
+  "pass": true
+ },
+ {
+  "w": 320,
+  "ch": "dark-0",
+  "selector": "#start-tour-btn",
+  "corePixels": 378,
+  "worstContrast": 9.814,
+  "pass": true
+ },
+ {
+  "w": 320,
+  "ch": "dark-0",
+  "selector": "#search-bar",
+  "corePixels": 1470,
+  "worstContrast": 9.814,
+  "pass": true
+ },
+ {
+  "w": 320,
+  "ch": "dark-0",
+  "selector": ".vista-header h1",
+  "corePixels": 7248,
+  "worstContrast": 12.011,
+  "pass": true
+ },
+ {
+  "w": 320,
+  "ch": "dark-0",
+  "selector": ".vista-header>p",
+  "corePixels": 1685,
+  "worstContrast": 9.512,
+  "pass": true
+ },
+ {
+  "w": 320,
+  "ch": "dark-0",
+  "selector": "#result-count",
+  "corePixels": 997,
+  "worstContrast": 12.011,
+  "pass": true
+ },
+ {
+  "w": 320,
+  "ch": "dark-0",
+  "selector": ".park-card:first-child h3",
+  "corePixels": 1060,
+  "worstContrast": 9.814,
+  "pass": true
+ },
+ {
+  "w": 320,
+  "ch": "dark-0",
+  "selector": ".park-card:first-child p",
+  "corePixels": 361,
+  "worstContrast": 7.701,
+  "pass": true
+ },
+ {
+  "w": 320,
+  "ch": "dark-1",
+  "selector": "#park-hero-name",
+  "corePixels": 1815,
+  "worstContrast": 9.814,
+  "pass": true
+ },
+ {
+  "w": 320,
+  "ch": "dark-1",
+  "selector": "#park-hero-location",
+  "corePixels": 468,
+  "worstContrast": 7.701,
+  "pass": true
+ },
+ {
+  "w": 320,
+  "ch": "dark-2",
+  "selector": "#park-essence-text",
+  "corePixels": 16969,
+  "worstContrast": 11.968,
+  "pass": true
+ },
+ {
+  "w": 320,
+  "ch": "dark-2",
+  "selector": ".source-note",
+  "corePixels": 8909,
+  "worstContrast": 9.512,
+  "pass": true
+ },
+ {
+  "w": 320,
+  "ch": "light-0",
+  "selector": "#theme-toggle",
+  "corePixels": 811,
+  "worstContrast": 10.909,
+  "pass": true
+ },
+ {
+  "w": 320,
+  "ch": "light-0",
+  "selector": "#reset-guide",
+  "corePixels": 865,
+  "worstContrast": 10.909,
+  "pass": true
+ },
+ {
+  "w": 320,
+  "ch": "light-0",
+  "selector": "#start-tour-btn",
+  "corePixels": 374,
+  "worstContrast": 10.744,
+  "pass": true
+ },
+ {
+  "w": 320,
+  "ch": "light-0",
+  "selector": "#search-bar",
+  "corePixels": 1435,
+  "worstContrast": 10.909,
+  "pass": true
+ },
+ {
+  "w": 320,
+  "ch": "light-0",
+  "selector": ".vista-header h1",
+  "corePixels": 7177,
+  "worstContrast": 9.825,
+  "pass": true
+ },
+ {
+  "w": 320,
+  "ch": "light-0",
+  "selector": ".vista-header>p",
+  "corePixels": 1632,
+  "worstContrast": 5.482,
+  "pass": true
+ },
+ {
+  "w": 320,
+  "ch": "light-0",
+  "selector": "#result-count",
+  "corePixels": 962,
+  "worstContrast": 9.825,
+  "pass": true
+ },
+ {
+  "w": 320,
+  "ch": "light-0",
+  "selector": ".park-card:first-child h3",
+  "corePixels": 1050,
+  "worstContrast": 10.909,
+  "pass": true
+ },
+ {
+  "w": 320,
+  "ch": "light-0",
+  "selector": ".park-card:first-child p",
+  "corePixels": 352,
+  "worstContrast": 6.087,
+  "pass": true
+ },
+ {
+  "w": 320,
+  "ch": "light-1",
+  "selector": "#park-hero-name",
+  "corePixels": 1793,
+  "worstContrast": 10.909,
+  "pass": true
+ },
+ {
+  "w": 320,
+  "ch": "light-1",
+  "selector": "#park-hero-location",
+  "corePixels": 463,
+  "worstContrast": 6.087,
+  "pass": true
+ },
+ {
+  "w": 320,
+  "ch": "light-2",
+  "selector": "#park-essence-text",
+  "corePixels": 16412,
+  "worstContrast": 9.825,
+  "pass": true
+ },
+ {
+  "w": 320,
+  "ch": "light-2",
+  "selector": ".source-note",
+  "corePixels": 8558,
+  "worstContrast": 5.482,
+  "pass": true
+ },
+ {
+  "w": 390,
+  "ch": "dark-0",
+  "selector": "#theme-toggle",
+  "corePixels": 840,
+  "worstContrast": 9.814,
+  "pass": true
+ },
+ {
+  "w": 390,
+  "ch": "dark-0",
+  "selector": "#reset-guide",
+  "corePixels": 882,
+  "worstContrast": 9.814,
+  "pass": true
+ },
+ {
+  "w": 390,
+  "ch": "dark-0",
+  "selector": "#start-tour-btn",
+  "corePixels": 378,
+  "worstContrast": 9.814,
+  "pass": true
+ },
+ {
+  "w": 390,
+  "ch": "dark-0",
+  "selector": "#search-bar",
+  "corePixels": 1470,
+  "worstContrast": 9.814,
+  "pass": true
+ },
+ {
+  "w": 390,
+  "ch": "dark-0",
+  "selector": ".vista-header h1",
+  "corePixels": 7248,
+  "worstContrast": 12.011,
+  "pass": true
+ },
+ {
+  "w": 390,
+  "ch": "dark-0",
+  "selector": ".vista-header>p",
+  "corePixels": 1685,
+  "worstContrast": 9.512,
+  "pass": true
+ },
+ {
+  "w": 390,
+  "ch": "dark-0",
+  "selector": "#result-count",
+  "corePixels": 997,
+  "worstContrast": 12.011,
+  "pass": true
+ },
+ {
+  "w": 390,
+  "ch": "dark-0",
+  "selector": ".park-card:first-child h3",
+  "corePixels": 1060,
+  "worstContrast": 9.814,
+  "pass": true
+ },
+ {
+  "w": 390,
+  "ch": "dark-0",
+  "selector": ".park-card:first-child p",
+  "corePixels": 361,
+  "worstContrast": 7.701,
+  "pass": true
+ },
+ {
+  "w": 390,
+  "ch": "dark-1",
+  "selector": "#park-hero-name",
+  "corePixels": 1815,
+  "worstContrast": 9.814,
+  "pass": true
+ },
+ {
+  "w": 390,
+  "ch": "dark-1",
+  "selector": "#park-hero-location",
+  "corePixels": 468,
+  "worstContrast": 7.701,
+  "pass": true
+ },
+ {
+  "w": 390,
+  "ch": "dark-2",
+  "selector": "#park-essence-text",
+  "corePixels": 17184,
+  "worstContrast": 12.011,
+  "pass": true
+ },
+ {
+  "w": 390,
+  "ch": "dark-2",
+  "selector": ".source-note",
+  "corePixels": 8982,
+  "worstContrast": 9.512,
+  "pass": true
+ },
+ {
+  "w": 390,
+  "ch": "light-0",
+  "selector": "#theme-toggle",
+  "corePixels": 811,
+  "worstContrast": 10.909,
+  "pass": true
+ },
+ {
+  "w": 390,
+  "ch": "light-0",
+  "selector": "#reset-guide",
+  "corePixels": 865,
+  "worstContrast": 10.909,
+  "pass": true
+ },
+ {
+  "w": 390,
+  "ch": "light-0",
+  "selector": "#start-tour-btn",
+  "corePixels": 374,
+  "worstContrast": 10.744,
+  "pass": true
+ },
+ {
+  "w": 390,
+  "ch": "light-0",
+  "selector": "#search-bar",
+  "corePixels": 1435,
+  "worstContrast": 10.909,
+  "pass": true
+ },
+ {
+  "w": 390,
+  "ch": "light-0",
+  "selector": ".vista-header h1",
+  "corePixels": 7177,
+  "worstContrast": 9.825,
+  "pass": true
+ },
+ {
+  "w": 390,
+  "ch": "light-0",
+  "selector": ".vista-header>p",
+  "corePixels": 1632,
+  "worstContrast": 5.482,
+  "pass": true
+ },
+ {
+  "w": 390,
+  "ch": "light-0",
+  "selector": "#result-count",
+  "corePixels": 962,
+  "worstContrast": 9.825,
+  "pass": true
+ },
+ {
+  "w": 390,
+  "ch": "light-0",
+  "selector": ".park-card:first-child h3",
+  "corePixels": 1050,
+  "worstContrast": 10.909,
+  "pass": true
+ },
+ {
+  "w": 390,
+  "ch": "light-0",
+  "selector": ".park-card:first-child p",
+  "corePixels": 352,
+  "worstContrast": 6.087,
+  "pass": true
+ },
+ {
+  "w": 390,
+  "ch": "light-1",
+  "selector": "#park-hero-name",
+  "corePixels": 1793,
+  "worstContrast": 10.909,
+  "pass": true
+ },
+ {
+  "w": 390,
+  "ch": "light-1",
+  "selector": "#park-hero-location",
+  "corePixels": 463,
+  "worstContrast": 6.087,
+  "pass": true
+ },
+ {
+  "w": 390,
+  "ch": "light-2",
+  "selector": "#park-essence-text",
+  "corePixels": 16644,
+  "worstContrast": 9.825,
+  "pass": true
+ },
+ {
+  "w": 390,
+  "ch": "light-2",
+  "selector": ".source-note",
+  "corePixels": 8546,
+  "worstContrast": 5.482,
+  "pass": true
+ }
+]

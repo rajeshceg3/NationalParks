@@ -1,0 +1,44 @@
+[
+  {
+    "width": 320,
+    "motion": "reduce",
+    "parks": 63,
+    "themes": 2,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "motion": "reduce",
+    "parks": 63,
+    "themes": 2,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "motion": "reduce",
+    "parks": 63,
+    "themes": 2,
+    "errors": []
+  },
+  {
+    "width": 320,
+    "motion": "no-preference",
+    "parks": 63,
+    "themes": 2,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "motion": "no-preference",
+    "parks": 63,
+    "themes": 2,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "motion": "no-preference",
+    "parks": 63,
+    "themes": 2,
+    "errors": []
+  }
+]

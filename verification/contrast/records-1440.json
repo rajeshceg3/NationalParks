@@ -1,0 +1,388 @@
+[
+  {
+    "w": 1440,
+    "h": 844,
+    "ch": "dark-0",
+    "prefix": "verification/contrast/1440-dark-0",
+    "els": [
+      {
+        "sel": "#theme-toggle",
+        "i": 0,
+        "rect": {
+          "x": 88,
+          "y": 173.390625,
+          "width": 130.703125,
+          "height": 47.59375
+        },
+        "ink": "rgb(247, 241, 223)",
+        "opacity": "1",
+        "font": "16px"
+      },
+      {
+        "sel": "#reset-guide",
+        "i": 1,
+        "rect": {
+          "x": 228.703125,
+          "y": 173.390625,
+          "width": 128.53125,
+          "height": 47.59375
+        },
+        "ink": "rgb(247, 241, 223)",
+        "opacity": "1",
+        "font": "16px"
+      },
+      {
+        "sel": "#start-tour-btn",
+        "i": 2,
+        "rect": {
+          "x": 834.625,
+          "y": 236.984375,
+          "width": 93.375,
+          "height": 55.59375
+        },
+        "ink": "rgb(247, 241, 223)",
+        "opacity": "1",
+        "font": "14px"
+      },
+      {
+        "sel": "#search-bar",
+        "i": 3,
+        "rect": {
+          "x": 88,
+          "y": 236.984375,
+          "width": 734.625,
+          "height": 55.59375
+        },
+        "ink": "rgb(247, 241, 223)",
+        "opacity": "1",
+        "font": "16px"
+      },
+      {
+        "sel": ".vista-header h1",
+        "i": 4,
+        "rect": {
+          "x": 88,
+          "y": 75.796875,
+          "width": 1264,
+          "height": 73.59375
+        },
+        "ink": "rgb(247, 241, 223)",
+        "opacity": "1",
+        "font": "64px"
+      },
+      {
+        "sel": ".vista-header>p",
+        "i": 5,
+        "rect": {
+          "x": 88,
+          "y": 40,
+          "width": 1264,
+          "height": 23.796875
+        },
+        "ink": "rgb(206, 219, 208)",
+        "opacity": "1",
+        "font": "14px"
+      },
+      {
+        "sel": "#result-count",
+        "i": 6,
+        "rect": {
+          "x": 88,
+          "y": 322.578125,
+          "width": 1264,
+          "height": 27.1875
+        },
+        "ink": "rgb(247, 241, 223)",
+        "opacity": "1",
+        "font": "16px"
+      },
+      {
+        "sel": ".park-card:first-child h3",
+        "i": 7,
+        "rect": {
+          "x": 109,
+          "y": 690.765625,
+          "width": 254.5,
+          "height": 29.890625
+        },
+        "ink": "rgb(247, 241, 223)",
+        "opacity": "1",
+        "font": "26px"
+      },
+      {
+        "sel": ".park-card:first-child p",
+        "i": 8,
+        "rect": {
+          "x": 109,
+          "y": 727.65625,
+          "width": 254.5,
+          "height": 23.796875
+        },
+        "ink": "rgb(206, 219, 208)",
+        "opacity": "1",
+        "font": "14px"
+      }
+    ]
+  },
+  {
+    "w": 1440,
+    "h": 844,
+    "ch": "dark-1",
+    "prefix": "verification/contrast/1440-dark-1",
+    "els": [
+      {
+        "sel": "#park-hero-name",
+        "i": 0,
+        "rect": {
+          "x": 198,
+          "y": 466.875,
+          "width": 1044,
+          "height": 66.6875
+        },
+        "ink": "rgb(247, 241, 223)",
+        "opacity": "1",
+        "font": "58px"
+      },
+      {
+        "sel": "#park-hero-location",
+        "i": 1,
+        "rect": {
+          "x": 198,
+          "y": 545.5625,
+          "width": 1044,
+          "height": 27.1875
+        },
+        "ink": "rgb(206, 219, 208)",
+        "opacity": "1",
+        "font": "16px"
+      }
+    ]
+  },
+  {
+    "w": 1440,
+    "h": 844,
+    "ch": "dark-2",
+    "prefix": "verification/contrast/1440-dark-2",
+    "els": [
+      {
+        "sel": "#park-essence-text",
+        "i": 0,
+        "rect": {
+          "x": 198,
+          "y": 340.796875,
+          "width": 1044,
+          "height": 81.5625
+        },
+        "ink": "rgb(247, 241, 223)",
+        "opacity": "1",
+        "font": "16px"
+      },
+      {
+        "sel": ".source-note",
+        "i": 1,
+        "rect": {
+          "x": 198,
+          "y": 438.359375,
+          "width": 1044,
+          "height": 66.59375
+        },
+        "ink": "rgb(206, 219, 208)",
+        "opacity": "1",
+        "font": "14px"
+      }
+    ]
+  },
+  {
+    "w": 1440,
+    "h": 844,
+    "ch": "light-0",
+    "prefix": "verification/contrast/1440-light-0",
+    "els": [
+      {
+        "sel": "#theme-toggle",
+        "i": 0,
+        "rect": {
+          "x": 88,
+          "y": 173.390625,
+          "width": 128.75,
+          "height": 47.59375
+        },
+        "ink": "rgb(32, 58, 57)",
+        "opacity": "1",
+        "font": "16px"
+      },
+      {
+        "sel": "#reset-guide",
+        "i": 1,
+        "rect": {
+          "x": 226.75,
+          "y": 173.390625,
+          "width": 128.53125,
+          "height": 47.59375
+        },
+        "ink": "rgb(32, 58, 57)",
+        "opacity": "1",
+        "font": "16px"
+      },
+      {
+        "sel": "#start-tour-btn",
+        "i": 2,
+        "rect": {
+          "x": 834.625,
+          "y": 236.984375,
+          "width": 93.375,
+          "height": 55.59375
+        },
+        "ink": "rgb(32, 58, 57)",
+        "opacity": "1",
+        "font": "14px"
+      },
+      {
+        "sel": "#search-bar",
+        "i": 3,
+        "rect": {
+          "x": 88,
+          "y": 236.984375,
+          "width": 734.625,
+          "height": 55.59375
+        },
+        "ink": "rgb(32, 58, 57)",
+        "opacity": "1",
+        "font": "16px"
+      },
+      {
+        "sel": ".vista-header h1",
+        "i": 4,
+        "rect": {
+          "x": 88,
+          "y": 75.796875,
+          "width": 1264,
+          "height": 73.59375
+        },
+        "ink": "rgb(32, 58, 57)",
+        "opacity": "1",
+        "font": "64px"
+      },
+      {
+        "sel": ".vista-header>p",
+        "i": 5,
+        "rect": {
+          "x": 88,
+          "y": 40,
+          "width": 1264,
+          "height": 23.796875
+        },
+        "ink": "rgb(74, 98, 91)",
+        "opacity": "1",
+        "font": "14px"
+      },
+      {
+        "sel": "#result-count",
+        "i": 6,
+        "rect": {
+          "x": 88,
+          "y": 322.578125,
+          "width": 1264,
+          "height": 27.1875
+        },
+        "ink": "rgb(32, 58, 57)",
+        "opacity": "1",
+        "font": "16px"
+      },
+      {
+        "sel": ".park-card:first-child h3",
+        "i": 7,
+        "rect": {
+          "x": 109,
+          "y": 690.765625,
+          "width": 254.5,
+          "height": 29.890625
+        },
+        "ink": "rgb(32, 58, 57)",
+        "opacity": "1",
+        "font": "26px"
+      },
+      {
+        "sel": ".park-card:first-child p",
+        "i": 8,
+        "rect": {
+          "x": 109,
+          "y": 727.65625,
+          "width": 254.5,
+          "height": 23.796875
+        },
+        "ink": "rgb(74, 98, 91)",
+        "opacity": "1",
+        "font": "14px"
+      }
+    ]
+  },
+  {
+    "w": 1440,
+    "h": 844,
+    "ch": "light-1",
+    "prefix": "verification/contrast/1440-light-1",
+    "els": [
+      {
+        "sel": "#park-hero-name",
+        "i": 0,
+        "rect": {
+          "x": 198,
+          "y": 466.875,
+          "width": 1044,
+          "height": 66.6875
+        },
+        "ink": "rgb(32, 58, 57)",
+        "opacity": "1",
+        "font": "58px"
+      },
+      {
+        "sel": "#park-hero-location",
+        "i": 1,
+        "rect": {
+          "x": 198,
+          "y": 545.5625,
+          "width": 1044,
+          "height": 27.1875
+        },
+        "ink": "rgb(74, 98, 91)",
+        "opacity": "1",
+        "font": "16px"
+      }
+    ]
+  },
+  {
+    "w": 1440,
+    "h": 844,
+    "ch": "light-2",
+    "prefix": "verification/contrast/1440-light-2",
+    "els": [
+      {
+        "sel": "#park-essence-text",
+        "i": 0,
+        "rect": {
+          "x": 198,
+          "y": 340.796875,
+          "width": 1044,
+          "height": 81.5625
+        },
+        "ink": "rgb(32, 58, 57)",
+        "opacity": "1",
+        "font": "16px"
+      },
+      {
+        "sel": ".source-note",
+        "i": 1,
+        "rect": {
+          "x": 198,
+          "y": 438.359375,
+          "width": 1044,
+          "height": 66.59375
+        },
+        "ink": "rgb(74, 98, 91)",
+        "opacity": "1",
+        "font": "14px"
+      }
+    ]
+  }
+]
