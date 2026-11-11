@@ -116,7 +116,27 @@
 
         parkDetailCloseButton.addEventListener('click', closeParkDetail);
 
+        // Opt-in park ambience (synthesized, follows the viewed park)
+        const soundToggle = document.getElementById('park-sound-toggle');
+        let soundEngine = null;
+        let currentParkName = null;
+        function setSoundOn(on) {
+            if (on && !soundEngine && window.ParkSoundscape) {
+                try { soundEngine = window.ParkSoundscape.createSoundscape(); } catch { soundEngine = null; return; }
+                window.__soundscape = soundEngine;
+                if (currentParkName) soundEngine.setPark(currentParkName);
+            } else if (!on && soundEngine) {
+                soundEngine.dispose();
+                soundEngine = null;
+                delete window.__soundscape;
+            }
+            soundToggle.setAttribute('aria-pressed', String(on));
+            soundToggle.textContent = on ? 'Sound on' : 'Sound off';
+        }
+        soundToggle.addEventListener('click', () => setSoundOn(soundToggle.getAttribute('aria-pressed') !== 'true'));
+
         function closeParkDetail() {
+            setSoundOn(false);
             clearTimeout(closeTimer);
             parkDetailScreen.classList.remove('visible');
             parkDetailScreen.classList.add('hidden');
@@ -158,6 +178,8 @@
             parkHeroImage.src = data.heroImage;
             parkHeroImage.alt = data.name;
             document.getElementById('park-hero-name').textContent = data.name;
+            currentParkName = data.name;
+            if (soundEngine) soundEngine.setPark(data.name);
             document.getElementById('park-hero-location').textContent = data.location;
             document.getElementById('park-essence-text').textContent = data.essence;
 
