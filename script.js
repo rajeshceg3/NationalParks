@@ -298,7 +298,7 @@
 
         function clearTourTargetActive() {
             document.querySelectorAll('.tour-target-active').forEach(el => {
-                el.classList.remove('tour-target-active');
+                el.classList.remove('tour-target-active','tour-target-static');
             });
         }
 
@@ -371,8 +371,14 @@
             // Scroll element into view smoothly if needed
             targetElement.scrollIntoView({ behavior: reducedMotion?'instant':'smooth', block: 'center' });
 
-            // Apply interaction class immediately
+            // Apply interaction class immediately. Only statically positioned targets
+            // need forced relative positioning for the z-index to apply; fixed or
+            // already-positioned targets (e.g. .close-button) must keep their
+            // placement or they are yanked out of place and off screen.
             targetElement.classList.add('tour-target-active');
+            if (window.getComputedStyle(targetElement).position === 'static') {
+                targetElement.classList.add('tour-target-static');
+            }
 
             tourTitle.classList.remove('tour-anim-enter');
             tourContent.classList.remove('tour-anim-enter');
