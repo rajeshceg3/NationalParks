@@ -24,3 +24,6 @@ button:active{transform:scale(.97);box-shadow:1px 2px 0 rgba(20,44,41,.25)}
 .park-sound-toggle{border:2px solid #fff!important;border-radius:12px 15px 12px 15px/15px 12px 15px 12px!important;box-shadow:2px 3px 0 rgba(0,0,0,.4)}
 #search-bar{border:2px solid var(--text);border-radius:13px 16px 12px 17px/17px 12px 16px 13px}
 @media(prefers-reduced-motion:reduce){.chrome,button{transition:none}}
+
+/* Reserved hint ledge: content never renders behind the hint tab */
+body.chrome-quiet .app-screen{inset:0 0 64px 0}

@@ -557,7 +557,7 @@
   const detailOpen=()=>{const d=document.querySelector('#park-detail-screen');return d&&d.classList.contains('visible')&&!d.classList.contains('hidden')};
   let pinned=false;try{pinned=localStorage.getItem(PIN_KEY)==='1'}catch{}
   let chrome=true,focusWithin=false,retireTimer=0;
-  const apply=()=>{const on=chrome||pinned;els.forEach(e=>e.classList.toggle('chrome-on',on));hint.hidden=on};
+  const apply=()=>{const on=chrome||pinned;els.forEach(e=>e.classList.toggle('chrome-on',on));hint.hidden=on;document.body.classList.toggle('chrome-quiet',!on)};
   const retireSoon=()=>{clearTimeout(retireTimer);retireTimer=setTimeout(()=>{if(!focusWithin&&!tourTip()){chrome=false;apply()}},RETIRE_MS)};
   const wake=()=>{chrome=true;apply();retireSoon()};
   document.addEventListener('pointermove',e=>{if(e.pointerType==='touch')return;if(e.clientY<TOP_ZONE||e.clientY>innerHeight-BOTTOM_ZONE)wake()});

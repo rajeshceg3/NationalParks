@@ -22,4 +22,30 @@ const pptr=require('puppeteer-core'),assert=require('node:assert/strict'),{spawn
   assert(await p.$eval('.close-button',e=>getComputedStyle(e).opacity)==='1','pin persists');
   await ctx.close();
  }
+
+ // Overlap gate: at 320 and 390 the hint rect must not intersect any text or link rect, top and bottom of scroll
+ for(const w of [320,390]){
+  const ctx=await b.createBrowserContext();const p=await ctx.newPage();await p.setViewport({width:w,height:844});
+  await p.goto('http://127.0.0.1:8799/');
+  await new Promise(r=>setTimeout(r,3400));
+  const cards=await p.$$('.park-card');await cards[0].click();await p.waitForSelector('#park-detail-screen.visible');
+  await p.click('.park-content p');await new Promise(r=>setTimeout(r,3200));
+  for(const pos of [0,'end']){
+   if(pos==='end')await p.$eval('#park-detail-screen',e=>{e.scrollTop=e.scrollHeight});
+   await new Promise(r=>setTimeout(r,300));
+   const hits=await p.evaluate(()=>{
+    const h=document.querySelector('.chrome-hint').getBoundingClientRect();const bad=[];
+    const inter=r=>!(r.right<h.left||r.left>h.right||r.bottom<h.top||r.top>h.bottom);
+    const cr=document.querySelector('#park-detail-screen').getBoundingClientRect();
+    for(const el of document.querySelectorAll('#park-detail-screen a, #park-detail-screen p, #park-detail-screen h1, #park-detail-screen h2, #park-detail-screen span, #park-detail-screen li')){
+     const r=el.getBoundingClientRect();
+     const vr={left:Math.max(r.left,cr.left),right:Math.min(r.right,cr.right),top:Math.max(r.top,cr.top),bottom:Math.min(r.bottom,cr.bottom)};
+     if(vr.right>vr.left&&vr.bottom>vr.top&&inter(vr)&&getComputedStyle(el).visibility!=='hidden')bad.push(el.tagName+'.'+el.className);
+    }
+    return bad;
+   });
+   assert.deepEqual(hits,[],'hint overlap at '+w+' '+pos+': '+hits.join(','));
+  }
+  await ctx.close();
+ }
  console.log('quiet chrome pass OK');}finally{await b?.close();s?.kill();}})().catch(e=>{console.error(e);process.exit(1)});
