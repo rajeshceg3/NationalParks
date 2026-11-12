@@ -4,3 +4,23 @@
 .park-sound-toggle{position:absolute;right:1rem;bottom:1rem;padding:.5rem .9rem;border-radius:999px;border:1px solid rgba(255,255,255,.4);background:rgba(0,0,0,.45);color:#fff;font:inherit;font-size:.85rem;cursor:pointer}
 .park-sound-toggle[aria-pressed="true"]{background:rgba(255,255,255,.9);color:#111}
 .park-hero{position:relative}
+
+/* Quiet chrome */
+.chrome{opacity:0;visibility:hidden;pointer-events:none;transition:opacity .22s ease,visibility .22s ease}
+.chrome.chrome-on{opacity:1;visibility:visible;pointer-events:auto}
+.chrome-hint[hidden]{display:none}
+.chrome-hint{position:fixed;left:50%;bottom:12px;transform:translateX(-50%);z-index:1400;width:52px;height:40px;display:grid;place-items:center;background:var(--surface);color:var(--text);border:2px solid var(--text);border-radius:14px 17px 13px 16px/16px 13px 17px 14px;box-shadow:3px 4px 0 rgba(20,44,41,.35);cursor:pointer;padding:6px}
+.chrome-pin-btn{position:fixed;right:24px;top:76px;z-index:110;min-height:0;padding:7px 12px;font-size:12px;border:2px dashed var(--text);border-radius:12px 15px 12px 15px/15px 12px 15px 12px;background:var(--surface);color:var(--text);box-shadow:3px 4px 0 rgba(20,44,41,.25);opacity:.9}
+.chrome-pin-btn[aria-pressed="true"]{background:var(--accent);color:var(--surface);border-style:solid;border-color:var(--accent);opacity:1}
+@media(max-width:600px){.chrome-pin-btn{right:12px;top:68px}}
+/* Ranger field-stamp controls */
+button{border-width:2px;border-color:var(--text);border-radius:13px 16px 12px 17px/17px 12px 16px 13px;box-shadow:3px 4px 0 rgba(20,44,41,.22);transition:transform .18s cubic-bezier(0.23,1,0.32,1),box-shadow .18s ease}
+button:nth-of-type(even){border-radius:15px 12px 16px 12px/12px 16px 12px 15px}
+button:hover{border-color:var(--accent);transform:translateY(-1px)}
+button:active{transform:scale(.97);box-shadow:1px 2px 0 rgba(20,44,41,.25)}
+.park-card{border-width:2px;border-color:var(--text);border-radius:20px 24px 19px 25px/24px 19px 25px 20px;box-shadow:4px 5px 0 rgba(20,44,41,.18)}
+.park-card:active{transform:none}
+.gallery-button{border-width:1px;box-shadow:none;border-radius:10px 12px 9px 13px/13px 9px 12px 10px}
+.park-sound-toggle{border:2px solid #fff!important;border-radius:12px 15px 12px 15px/15px 12px 15px 12px!important;box-shadow:2px 3px 0 rgba(0,0,0,.4)}
+#search-bar{border:2px solid var(--text);border-radius:13px 16px 12px 17px/17px 12px 16px 13px}
+@media(prefers-reduced-motion:reduce){.chrome,button{transition:none}}
