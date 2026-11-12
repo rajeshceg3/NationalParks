@@ -539,3 +539,36 @@
 
     });
 })();
+
+// Quiet chrome: floating actions greet, retire, and wake when called.
+(function(){
+  const PIN_KEY='nationalparks-chrome-pin',TOP_ZONE=96,BOTTOM_ZONE=150,RETIRE_MS=2600;
+  const els=[document.querySelector('.close-button'),document.querySelector('.park-sound-toggle')].filter(Boolean);
+  const pinBtn=document.createElement('button');
+  pinBtn.id='pin-controls';pinBtn.type='button';pinBtn.className='chrome-pin-btn';pinBtn.textContent='Pin';pinBtn.title='Keep controls visible';pinBtn.setAttribute('aria-pressed','false');
+  document.body.appendChild(pinBtn);
+  els.push(pinBtn);
+  els.forEach(e=>e.classList.add('chrome','chrome-on'));
+  const hint=document.createElement('button');
+  hint.className='chrome-hint';hint.hidden=true;hint.setAttribute('aria-label','Show controls');
+  hint.innerHTML='<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3.5 17.5 L9 8.5 L12.2 13.4 L14.8 9.8 L20.5 17.4 M9 8.5 L9.9 6.8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  document.body.appendChild(hint);
+  const tourTip=()=>{const t=document.querySelector('#tour-tooltip');return t&&!t.classList.contains('hidden')};
+  const detailOpen=()=>{const d=document.querySelector('#park-detail-screen');return d&&d.classList.contains('visible')&&!d.classList.contains('hidden')};
+  let pinned=false;try{pinned=localStorage.getItem(PIN_KEY)==='1'}catch{}
+  let chrome=true,focusWithin=false,retireTimer=0;
+  const apply=()=>{const on=chrome||pinned;els.forEach(e=>e.classList.toggle('chrome-on',on));hint.hidden=on};
+  const retireSoon=()=>{clearTimeout(retireTimer);retireTimer=setTimeout(()=>{if(!focusWithin&&!tourTip()){chrome=false;apply()}},RETIRE_MS)};
+  const wake=()=>{chrome=true;apply();retireSoon()};
+  document.addEventListener('pointermove',e=>{if(e.pointerType==='touch')return;if(e.clientY<TOP_ZONE||e.clientY>innerHeight-BOTTOM_ZONE)wake()});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(detailOpen()||tourTip())return;focusWithin=false;chrome=false;apply()}});
+  document.addEventListener('focusin',e=>{if(els.some(x=>x.contains(e.target))){focusWithin=true;clearTimeout(retireTimer);chrome=true;apply()}});
+  document.addEventListener('focusout',e=>{if(!els.some(x=>x.contains(e.relatedTarget))){focusWithin=false;retireSoon()}});
+  hint.addEventListener('click',wake);
+  const tip=document.querySelector('#tour-tooltip');
+  if(tip)new MutationObserver(()=>{if(tourTip()){chrome=true;apply();clearTimeout(retireTimer)}else retireSoon()}).observe(tip,{attributes:true,attributeFilter:['class']});
+  const setPin=next=>{pinned=next;try{next?localStorage.setItem(PIN_KEY,'1'):localStorage.removeItem(PIN_KEY)}catch{}pinBtn.setAttribute('aria-pressed',String(next));pinBtn.textContent=next?'Unpin':'Pin';pinBtn.title=next?'Let controls retire':'Keep controls visible';if(next){chrome=true;apply()}else retireSoon()};
+  pinBtn.addEventListener('click',()=>setPin(!pinned));
+  if(pinned)setPin(true);
+  retireSoon();
+})();
